@@ -461,11 +461,11 @@ questions[50] = {
 
 questions[51] = {
   id: 51,
-  q: "You want to build a model to predict whether an email is spam or not spam. Which type of machine learning should you use?",
-  o: ["A. regression", "B. clustering", "C. classification", "D. anomaly detection"],
-  a: 2,
-  e: "Predicting whether an email is spam or not spam is a binary classification problem (two categories: spam/not spam).",
-  k: ["classification", "binary classification", "spam detection"]
+  q: "What are two metrics that you can use to evaluate a regression model? Each correct answer presents a complete solution.",
+  o: ["A. coefficient of determination (R2) and root mean squared error (RMSE)", "B. F1 score and area under curve (AUC)", "C. balanced accuracy and F1 score", "D. AUC and R2"],
+  a: 0,
+  e: "R2 (coefficient of determination) measures how well the model fits the data (closer to 1 is better). RMSE (root mean squared error) measures average prediction error magnitude. Both are regression metrics. F1, AUC, and balanced accuracy are classification metrics.",
+  k: ["R2", "RMSE", "regression metrics", "coefficient of determination", "root mean squared error"]
 };
 
 questions[52] = {
@@ -506,11 +506,11 @@ questions[55] = {
 
 questions[56] = {
   id: 56,
-  q: "Which Azure service allows you to create a machine learning model by dragging and connecting modules on a visual canvas without writing code?",
-  o: ["A. Azure Machine Learning SDK", "B. Azure Machine Learning designer", "C. Automated Machine Learning (AutoML)", "D. Azure Databricks"],
-  a: 1,
-  e: "Azure Machine Learning designer is the no-code drag-and-drop visual interface for building ML models by connecting modules on a canvas.",
-  k: ["Azure ML designer", "no-code", "visual canvas", "drag-and-drop"]
+  q: "Which metric can you use to evaluate a classification model?",
+  o: ["A. true positive rate", "B. mean absolute error (MAE)", "C. coefficient of determination (R2)", "D. root mean squared error (RMSE)"],
+  a: 0,
+  e: "True positive rate (recall/sensitivity) is a classification metric measuring the proportion of actual positives correctly identified. MAE, R2, and RMSE are regression metrics used to evaluate numeric prediction models.",
+  k: ["true positive rate", "recall", "classification metric", "sensitivity"]
 };
 
 questions[57] = {
@@ -668,11 +668,11 @@ questions[73] = {
 
 questions[74] = {
   id: 74,
-  q: "Which Azure Cognitive Service can be used to identify celebrities and landmarks in photographs?",
-  o: ["A. Custom Vision", "B. Computer Vision", "C. Face API", "D. Form Recognizer"],
-  a: 1,
-  e: "Computer Vision can identify celebrities, landmarks, and other recognizable entities in images using pre-built domain models.",
-  k: ["Computer Vision", "celebrities", "landmarks", "image analysis"]
+  q: "HOTSPOT - You have a database that contains a list of employees and their photos. You are tagging new photos of the employees. For each statement, select Yes or No: (1) The Face service can be used to detect faces in the new photos. (2) Providing multiple angles of a person's face improves recognition accuracy. (3) The Face service will always detect a face even if it is occluded by sunglasses.",
+  o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
+  a: 0,
+  e: "Yes, Face service detects faces and their attributes. Yes, providing multiple angles (frontal, profile) improves feature representation and reduces false positives. No, occlusions like sunglasses can sometimes prevent face detection — 'always' is too strong; some occlusions can be inferred but not all.",
+  k: ["Face service", "face detection", "occlusion", "facial recognition", "employee photos"]
 };
 
 questions[75] = {
@@ -695,38 +695,38 @@ questions[76] = {
 
 questions[77] = {
   id: 77,
-  q: "Which Azure service allows you to identify dominant colors and whether an image is black-and-white or color?",
-  o: ["A. Face API", "B. Computer Vision", "C. Custom Vision", "D. Form Recognizer"],
+  q: "You need to identify the numbers printed on runners' shirts in photos from a marathon. Which type of computer vision should you use?",
+  o: ["A. facial recognition", "B. optical character recognition (OCR)", "C. image classification", "D. object detection"],
   a: 1,
-  e: "Computer Vision can analyze images for color scheme information including dominant colors, accent colors, and whether the image is black-and-white.",
-  k: ["Computer Vision", "color analysis", "dominant colors", "image analysis"]
+  e: "OCR (Optical Character Recognition) reads and extracts text and numbers from images. For identifying printed numbers on shirts, OCR is the correct choice. Facial recognition finds faces, image classification labels the whole image, and object detection locates objects.",
+  k: ["OCR", "optical character recognition", "text extraction", "runners", "marathon"]
 };
 
 questions[78] = {
   id: 78,
-  q: "HOTSPOT - To complete the sentence: The __________ service allows you to train custom image classification and object detection models using your own labeled images.",
-  o: ["Computer Vision", "Custom Vision", "Face API", "Video Indexer"],
-  a: 1,
-  e: "Custom Vision is the Azure service for training custom image classification and object detection models with your own labeled images.",
-  k: ["Custom Vision", "custom model", "image classification", "object detection"]
+  q: "DRAG DROP - Match computer vision types to their descriptions: (1) Classify camera trap images as containing polar bears or brown bears. (2) Identify the location and type of each animal in an image. (3) Analyze images pixel-by-pixel to determine the exact boundary of each object.",
+  o: ["A. Image classification / Object detection / Semantic segmentation", "B. Object detection / Image classification / Semantic segmentation", "C. Semantic segmentation / Object detection / Image classification", "D. Image classification / Semantic segmentation / Object detection"],
+  a: 0,
+  e: "Classifying bears as polar or brown = Image classification (whole-image label). Identifying location and type of each animal = Object detection (bounding boxes). Pixel-level boundary analysis = Semantic segmentation (each pixel gets a class label).",
+  k: ["image classification", "object detection", "semantic segmentation", "pixel", "bounding box"]
 };
 
 questions[79] = {
   id: 79,
-  q: "Which computer vision feature would you use to automatically read text from a scanned contract document?",
-  o: ["A. face detection", "B. object detection", "C. image classification", "D. optical character recognition (OCR)"],
-  a: 3,
-  e: "OCR is used to read and extract text from images, including scanned documents like contracts.",
-  k: ["OCR", "text recognition", "scanned documents", "contracts"]
+  q: "You use drones to identify where weeds grow between rows of crops in order to send instructions for weed removal. Which type of computer vision should you use?",
+  o: ["A. object detection", "B. optical character recognition (OCR)", "C. scene segmentation", "D. image classification"],
+  a: 0,
+  e: "Object detection is used to identify the presence and location of specific objects (weeds) within images. It returns bounding boxes showing where weeds are, enabling precise targeting for removal. OCR reads text, image classification labels the whole image, and scene segmentation is similar but less precise.",
+  k: ["object detection", "drones", "weed detection", "precision agriculture", "bounding box"]
 };
 
 questions[80] = {
   id: 80,
-  q: "DRAG DROP - Match computer vision capabilities to scenarios: (1) Reads and extracts text from an image. (2) Identifies and counts individual objects in an image. (3) Assigns a category label to an entire image.",
-  o: ["A. OCR / Object detection / Image classification", "B. Image classification / OCR / Object detection", "C. Object detection / OCR / Image classification", "D. OCR / Image classification / Object detection"],
+  q: "DRAG DROP - Match Face API operations to descriptions: (1) Determine whether two detected faces are from the same person. (2) Find faces in a database that are similar-looking to a detected face. (3) Organize detected faces into groups based on visual similarity. (4) Match a detected face against a database to identify who the person is.",
+  o: ["A. Verification / Similarity / Grouping / Identification", "B. Identification / Grouping / Similarity / Verification", "C. Similarity / Verification / Identification / Grouping", "D. Grouping / Identification / Verification / Similarity"],
   a: 0,
-  e: "Reading text = OCR. Identifying/counting objects = Object detection. Assigning category to whole image = Image classification.",
-  k: ["OCR", "object detection", "image classification", "computer vision"]
+  e: "Verification: checks if two faces belong to the same person. Similarity: finds faces that look similar. Grouping: clusters similar faces together. Identification: matches a face against a known database of people.",
+  k: ["Face API", "verification", "similarity", "grouping", "identification", "facial recognition"]
 };
 
 questions[81] = {
@@ -740,11 +740,11 @@ questions[81] = {
 
 questions[82] = {
   id: 82,
-  q: "Which Azure service provides pre-built computer vision capabilities including image analysis, face detection, and OCR without requiring model training?",
-  o: ["A. Custom Vision", "B. Computer Vision", "C. Azure Machine Learning", "D. Form Recognizer"],
+  q: "You need to determine the location of cars in an image so that you can estimate the distance between the cars. Which type of computer vision should you use?",
+  o: ["A. optical character recognition (OCR)", "B. object detection", "C. image classification", "D. face detection"],
   a: 1,
-  e: "Computer Vision is a pre-built cognitive service that provides image analysis, face detection, OCR, and more without requiring model training.",
-  k: ["Computer Vision", "pre-built", "cognitive service", "no training required"]
+  e: "Object detection identifies and locates multiple objects within an image by returning bounding box coordinates. Once you know the location of each car, you can use that positional data to estimate the distance between them.",
+  k: ["object detection", "car location", "bounding box", "distance estimation", "computer vision"]
 };
 
 questions[83] = {
@@ -794,20 +794,20 @@ questions[87] = {
 
 questions[88] = {
   id: 88,
-  q: "HOTSPOT - To complete the sentence: __________ analysis involves identifying human faces in an image and returning information such as age, emotion, and glasses.",
-  o: ["Object detection", "Facial", "Image classification", "Semantic segmentation"],
-  a: 1,
-  e: "Facial analysis detects human faces and returns attributes such as estimated age, emotion, glasses, head pose, and more.",
-  k: ["facial analysis", "face attributes", "emotion", "age estimation"]
+  q: "You need to build an image tagging solution for social media that tags images of your friends automatically. Which Azure Cognitive Services service should you use?",
+  o: ["A. Face", "B. Form Recognizer", "C. Language", "D. Computer Vision"],
+  a: 0,
+  e: "The Face service is specifically designed for facial recognition tasks. It can detect faces, identify individuals by matching them against a known database (e.g., your friends), and automatically tag those faces in images.",
+  k: ["Face service", "image tagging", "facial recognition", "social media", "friend detection"]
 };
 
 questions[89] = {
   id: 89,
-  q: "Which Azure service can you use to read handwritten notes from a photograph of a whiteboard?",
-  o: ["A. Form Recognizer", "B. Computer Vision (OCR)", "C. Text Analytics", "D. Language Understanding"],
-  a: 1,
-  e: "Computer Vision's OCR capability can read printed and handwritten text from images, including photos of whiteboards.",
-  k: ["OCR", "handwritten text", "Computer Vision", "whiteboard"]
+  q: "HOTSPOT - For each scenario, select Yes if it is an example of a Form Recognizer use case, otherwise No: (1) Identify the retailer from a receipt. (2) Extract the invoice number from an invoice. (3) Translate a form from French to English.",
+  o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
+  a: 0,
+  e: "Yes, Form Recognizer has a pre-built receipt model that identifies retailers. Yes, Form Recognizer can extract invoice numbers from invoices. No, translating text from French to English is done by the Azure Translator service, not Form Recognizer.",
+  k: ["Form Recognizer", "receipts", "invoices", "document intelligence", "translator"]
 };
 
 questions[90] = {
@@ -1901,20 +1901,20 @@ questions[210] = {
 
 questions[211] = {
   id: 211,
-  q: "HOTSPOT - For each statement about Azure Cognitive Search, select Yes or No: (1) Azure Cognitive Search can index content from multiple data sources. (2) Azure Cognitive Search only supports English language queries. (3) Azure Cognitive Search can enrich documents with AI capabilities like OCR and NLP.",
-  o: ["A. Yes / No / Yes", "B. Yes / Yes / Yes", "C. No / Yes / No", "D. Yes / No / No"],
-  a: 0,
-  e: "Azure Cognitive Search yes indexes multiple sources. No, it supports many languages. Yes, it uses cognitive skills (OCR, NLP, entity recognition) to enrich content.",
-  k: ["Azure Cognitive Search", "indexing", "multilingual", "AI enrichment"]
+  q: "Your company is exploring the use of voice recognition technologies in its smart home devices. The company wants to identify any barriers that might unintentionally leave out specific user groups. This is an example of which Microsoft guiding principle for responsible AI?",
+  o: ["A. accountability", "B. fairness", "C. privacy and security", "D. inclusiveness"],
+  a: 3,
+  e: "Inclusiveness ensures AI empowers everyone, including people who are often excluded. Identifying barriers that might leave out specific user groups (e.g., accents, speech impairments) is directly about inclusiveness.",
+  k: ["inclusiveness", "voice recognition", "barriers", "responsible AI", "smart home"]
 };
 
 questions[212] = {
   id: 212,
-  q: "Which NLP capability can automatically detect whether a document is written in English, Spanish, French, or another language?",
-  o: ["A. sentiment analysis", "B. key phrase extraction", "C. language detection", "D. entity recognition"],
-  a: 2,
-  e: "Language detection identifies what language a text is written in, supporting automatic routing and translation workflows.",
-  k: ["language detection", "NLP", "multilingual", "document language"]
+  q: "You have a large dataset that contains motor vehicle sales data. You need to train an automated machine learning (automated ML) model to predict vehicle sale values based on the type of vehicle. Which task should you select?",
+  o: ["A. classification", "B. regression", "C. clustering", "D. time series forecasting"],
+  a: 1,
+  e: "Predicting vehicle sale values (a continuous numeric value) is a regression task. Classification predicts categories (yes/no, A/B/C). Clustering groups data. Regression is for predicting numeric values like prices.",
+  k: ["AutoML", "regression", "vehicle sale value", "numeric prediction", "automated ML"]
 };
 
 questions[213] = {
@@ -1991,11 +1991,11 @@ questions[220] = {
 
 questions[221] = {
   id: 221,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Azure AI services can be deployed within a private Azure Virtual Network. (2) Azure AI services are always publicly accessible on the internet. (3) Azure AI services support role-based access control (RBAC).",
-  o: ["A. Yes / No / Yes", "B. Yes / Yes / Yes", "C. No / No / Yes", "D. Yes / No / No"],
+  q: "You need to build an image tagging solution for social media that automatically tags images of your friends. Which Azure Cognitive Services service should you use?",
+  o: ["A. Face", "B. Form Recognizer", "C. Language", "D. Computer Vision"],
   a: 0,
-  e: "Yes, Cognitive Services can be restricted to a VNet. No, they can be configured to be private. Yes, they support RBAC for access management.",
-  k: ["Azure AI services", "VNet", "security", "RBAC", "private access"]
+  e: "The Face service is specifically designed for facial recognition and analysis tasks. It can automatically detect faces and identify individuals based on a known database of faces (like your friends), enabling automatic image tagging.",
+  k: ["Face service", "facial recognition", "image tagging", "social media", "friend identification"]
 };
 
 questions[222] = {
@@ -2018,11 +2018,11 @@ questions[223] = {
 
 questions[224] = {
   id: 224,
-  q: "HOTSPOT - For each statement about Azure AI responsible design, select Yes or No: (1) Microsoft has published Responsible AI standards that internal teams must follow. (2) Microsoft's responsible AI tools help detect bias in AI models. (3) Responsible AI is optional and not required for Azure AI services.",
-  o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
-  a: 0,
-  e: "Yes, Microsoft has published Responsible AI standards. Yes, Azure offers tools like Responsible AI Dashboard to detect bias. No, responsible AI is a core requirement.",
-  k: ["responsible AI", "Microsoft standards", "bias detection", "Responsible AI Dashboard"]
+  q: "You have 100 instructional videos that do NOT contain any audio. Each instructional video has a script. You need to generate a narration audio file for each video based on the script. Which type of workload should you use?",
+  o: ["A. language modeling", "B. speech recognition", "C. speech synthesis", "D. translation"],
+  a: 2,
+  e: "Speech synthesis (text-to-speech) converts text into spoken audio. You have scripts (text) and need to generate narration audio files — this is exactly what speech synthesis does. Speech recognition does the opposite (audio to text).",
+  k: ["speech synthesis", "text-to-speech", "narration", "instructional video", "audio generation"]
 };
 
 questions[225] = {
@@ -2036,20 +2036,20 @@ questions[225] = {
 
 questions[226] = {
   id: 226,
-  q: "HOTSPOT - To complete the sentence: When a company uses AI to analyze a patient's symptoms and suggest possible diagnoses, the __________ principle of responsible AI requires the AI recommendations to always be reviewed by a qualified physician.",
-  o: ["transparency", "reliability and safety", "accountability", "inclusiveness"],
+  q: "Which AI service can you use to extract intent from a user input such as 'Call me back later'?",
+  o: ["A. Azure Cognitive Search", "B. Translator", "C. Language", "D. Speech"],
   a: 2,
-  e: "Accountability ensures humans remain responsible for AI-assisted decisions. Medical AI recommendations must be reviewed by a qualified physician to maintain human accountability.",
-  k: ["accountability", "medical AI", "human review", "responsible AI"]
+  e: "The Language service provides NLP capabilities including intent recognition (Conversational Language Understanding). It can understand the meaning and intent behind user text inputs like 'Call me back later', making it ideal for chatbots and virtual assistants.",
+  k: ["Language service", "intent extraction", "conversational language understanding", "NLP", "user intent"]
 };
 
 questions[227] = {
   id: 227,
-  q: "Which Azure service can help retail companies implement inventory management by using images to automatically count and identify products on shelves?",
-  o: ["A. Azure Language service", "B. Azure Computer Vision", "C. Azure Anomaly Detector", "D. Azure Speech service"],
+  q: "You are building a Language Understanding model for an e-commerce business. You need to ensure that the model detects when utterances are outside the intended scope of the model. What should you do?",
+  o: ["A. Export the model", "B. Add utterances to the None intent", "C. Create a prebuilt task entity", "D. Create a new model"],
   a: 1,
-  e: "Computer Vision can analyze shelf images to detect, identify, and count products for inventory management.",
-  k: ["Computer Vision", "inventory management", "retail", "product detection", "object detection"]
+  e: "Every conversational language understanding project includes a required None intent. The None intent categorizes utterances that do not belong to any other custom intent, allowing the model to detect out-of-scope user inputs.",
+  k: ["None intent", "LUIS", "Language Understanding", "out-of-scope", "utterances"]
 };
 
 questions[228] = {
@@ -2072,20 +2072,20 @@ questions[229] = {
 
 questions[230] = {
   id: 230,
-  q: "Which AI technology enables a navigation app to convert voice commands like 'Navigate to the nearest gas station' into actionable instructions?",
-  o: ["A. Computer vision + object detection", "B. Speech-to-text + Language Understanding (LUIS)", "C. Sentiment analysis + translation", "D. Form Recognizer + Cognitive Search"],
+  q: "What is an example of the Microsoft responsible AI principle of transparency?",
+  o: ["A. ensuring that opportunities are allocated equally to all applicants", "B. helping users understand the decisions made by an AI system", "C. ensuring that developers are accountable for the solutions they create", "D. ensuring that the privileged data of users is stored in a secure manner"],
   a: 1,
-  e: "Speech-to-text converts the spoken command to text. Language Understanding (LUIS) then identifies the intent (navigate) and entities (nearest gas station).",
-  k: ["speech-to-text", "Language Understanding", "LUIS", "intent", "navigation"]
+  e: "Transparency means helping users understand how AI systems make decisions, why they produce specific results, and what data they are using. Option A is fairness, C is accountability, and D is privacy and security.",
+  k: ["transparency", "responsible AI", "AI decisions", "explainability"]
 };
 
 questions[231] = {
   id: 231,
-  q: "HOTSPOT - For each statement about Azure responsible AI tools, select Yes or No: (1) Azure provides tools to assess fairness of ML models across different demographic groups. (2) Responsible AI tools in Azure can explain why a model makes a specific prediction. (3) Responsible AI compliance is automatically guaranteed when using Azure AI services.",
-  o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
+  q: "You plan to build a conversational AI solution that can be surfaced in Microsoft Teams, Microsoft Cortana, and Amazon Alexa. Which service should you use?",
+  o: ["A. Azure Bot Service", "B. Azure Cognitive Search", "C. Speech service", "D. Language service"],
   a: 0,
-  e: "Yes, Azure has fairness assessment tools. Yes, Azure has explainability tools. No, responsible AI compliance requires human effort; tools assist but don't guarantee it.",
-  k: ["responsible AI tools", "fairness assessment", "explainability", "compliance"]
+  e: "Azure Bot Service allows bots to be published to multiple channels including Microsoft Teams, Cortana, and Amazon Alexa. It provides the channel integrations needed to surface a single bot across many platforms.",
+  k: ["Azure Bot Service", "conversational AI", "channels", "Microsoft Teams", "Alexa", "Cortana"]
 };
 
 questions[232] = {
@@ -2099,11 +2099,11 @@ questions[232] = {
 
 questions[233] = {
   id: 233,
-  q: "HOTSPOT - To complete the sentence: The __________ service in Azure provides pre-built AI models for common tasks like extracting text, identifying faces, and analyzing sentiment, accessed through simple API calls.",
-  o: ["Azure Machine Learning", "Azure Cognitive Services", "Azure Databricks", "Azure Synapse Analytics"],
-  a: 1,
-  e: "Azure Cognitive Services (now Azure AI Services) provides pre-built models for vision, speech, language, and decision tasks, accessible via simple REST API calls.",
-  k: ["Azure Cognitive Services", "pre-built models", "REST API", "vision", "language", "speech"]
+  q: "Which Azure Cognitive Services service can be used to identify documents that contain sensitive information?",
+  o: ["A. Custom Vision", "B. Conversational Language Understanding", "C. Form Recognizer", "D. Computer Vision"],
+  a: 2,
+  e: "Form Recognizer (Azure AI Document Intelligence) can extract and analyze structured information from documents, enabling identification of documents containing sensitive information like personal data, financial details, or confidential content.",
+  k: ["Form Recognizer", "Document Intelligence", "sensitive information", "document analysis"]
 };
 
 questions[234] = {
@@ -2117,11 +2117,11 @@ questions[234] = {
 
 questions[235] = {
   id: 235,
-  q: "HOTSPOT - For each statement about ethical AI design, select Yes or No: (1) Diverse training data helps create fairer AI models. (2) Removing all sensitive attributes from training data always eliminates bias. (3) Regular auditing of AI systems helps identify and address bias over time.",
-  o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / No"],
-  a: 0,
-  e: "Diverse data yes helps fairness. No, removing sensitive attributes doesn't always eliminate bias (proxy variables can encode it). Yes, regular auditing helps identify bias.",
-  k: ["fairness", "bias", "training data", "auditing", "responsible AI"]
+  q: "A smart device that responds to the question 'What is the stock price of Contoso, Ltd.?' is an example of which AI workload?",
+  o: ["A. knowledge mining", "B. natural language processing", "C. computer vision", "D. anomaly detection"],
+  a: 1,
+  e: "A smart device understanding and responding to a spoken question is an example of natural language processing (NLP). It involves understanding human language (the question) and generating a response. Knowledge mining extracts info from large datasets, computer vision analyzes images, and anomaly detection finds deviations from norms.",
+  k: ["NLP", "natural language processing", "smart device", "conversational AI", "stock price"]
 };
 
 questions[236] = {
