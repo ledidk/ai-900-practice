@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "AI-900 Exam Practice"
+version = "1.0.0"
+id = "artifacts/ai900-exam"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24906
+
+[services.development]
+run = "pnpm --filter @workspace/ai900-exam run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ai900-exam", "run", "build" ]
+publicDir = "artifacts/ai900-exam/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24906"
+BASE_PATH = "/"
