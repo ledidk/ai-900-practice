@@ -29,7 +29,7 @@ questions[2] = {
 
 questions[3] = {
   id: 3,
-  q: "HOTSPOT - You are developing a model to predict events by using classification. You have a confusion matrix for the model scored on test data. Based on the exhibit, the number of correctly predicted positives (True Positives) is:",
+  q: "You are developing a model to predict events by using classification. You have a confusion matrix for the model scored on test data. Based on the exhibit, the number of correctly predicted positives (True Positives) is:",
   o: ["A. 11", "B. 1033", "C. 5111", "D. 13951"],
   a: 0,
   e: "TP = True Positive. In the confusion matrix exhibit, TP = 11 (correctly predicted positives). FN = 1033 (false negatives - positives predicted as negative).",
@@ -47,7 +47,7 @@ questions[4] = {
 
 questions[5] = {
   id: 5,
-  q: "HOTSPOT - For each statement, select Yes if it is true: (1) Forecasting housing prices is an example of anomaly detection? (2) Identifying suspicious sign-in attempts is anomaly detection? (3) Predicting whether a patient has diabetes is anomaly detection?",
+  q: "For each statement, select Yes if it is true: (1) Forecasting housing prices is an example of anomaly detection? (2) Identifying suspicious sign-in attempts is anomaly detection? (3) Predicting whether a patient has diabetes is anomaly detection?",
   o: ["A. No / Yes / No", "B. Yes / No / Yes", "C. No / Yes / Yes", "D. Yes / Yes / No"],
   a: 0,
   e: "Forecasting prices is regression. Identifying suspicious sign-ins IS anomaly detection. Predicting diabetes is classification (yes/no). Answer: No/Yes/No.",
@@ -56,7 +56,7 @@ questions[5] = {
 
 questions[6] = {
   id: 6,
-  q: "HOTSPOT - To complete the sentence, select the appropriate option: The handling of unusual or missing values provided to an AI system is a consideration for the Microsoft __________ principle for responsible AI.",
+  q: "To complete the sentence, select the appropriate option: The handling of unusual or missing values provided to an AI system is a consideration for the Microsoft __________ principle for responsible AI.",
   o: ["inclusiveness", "privacy and security", "reliability and safety", "transparency"],
   a: 2,
   e: "Reliability and safety ensures AI systems operate safely under normal and unexpected conditions, including handling unusual or missing values and edge cases.",
@@ -65,7 +65,7 @@ questions[6] = {
 
 questions[7] = {
   id: 7,
-  q: "DRAG DROP - Match the types of AI workloads to the appropriate scenarios: (1) An automated chat solution for customer support (2) A system that tries to mimic human vision (3) Performing sentiment analysis on product reviews",
+  q: "Match the types of AI workloads to the appropriate scenarios: (1) An automated chat solution for customer support (2) A system that tries to mimic human vision (3) Performing sentiment analysis on product reviews",
   o: ["A. Conversational AI / Computer Vision / NLP", "B. Computer Vision / NLP / Conversational AI", "C. NLP / Computer Vision / Conversational AI", "D. Conversational AI / NLP / Computer Vision"],
   a: 0,
   e: "Automated chat = Conversational AI. Mimicking human vision = Computer Vision. Sentiment analysis = Natural Language Processing (NLP).",
@@ -83,7 +83,7 @@ questions[8] = {
 
 questions[9] = {
   id: 9,
-  q: "DRAG DROP - Match the Microsoft guiding principles for responsible AI: (1) AI systems should be able to respond safely to unanticipated conditions (2) AI systems' decisions can be overridden by humans (3) Controls over the collection, use, and storage of their data",
+  q: "Match the Microsoft guiding principles for responsible AI: (1) AI systems should be able to respond safely to unanticipated conditions (2) AI systems' decisions can be overridden by humans (3) Controls over the collection, use, and storage of their data",
   o: ["A. Reliability and safety / Accountability / Privacy and security", "B. Transparency / Accountability / Privacy and security", "C. Fairness / Inclusiveness / Transparency", "D. Privacy / Reliability / Accountability"],
   a: 0,
   e: "Reliability & safety: respond safely to unexpected conditions. Accountability: humans can override AI decisions. Privacy & security: controls over data collection, use, and storage.",
@@ -92,7 +92,7 @@ questions[9] = {
 
 questions[10] = {
   id: 10,
-  q: "HOTSPOT - To complete the sentence: Ensuring consistent operation of an AI system during unexpected circumstances is an example of the Microsoft __________ principle for responsible AI.",
+  q: "To complete the sentence: Ensuring consistent operation of an AI system during unexpected circumstances is an example of the Microsoft __________ principle for responsible AI.",
   o: ["fairness", "inclusiveness", "reliability and safety", "transparency"],
   a: 2,
   e: "Reliability and safety ensures AI systems operate reliably, safely, and consistently under normal circumstances and in unexpected conditions.",
@@ -110,7 +110,7 @@ questions[11] = {
 
 questions[12] = {
   id: 12,
-  q: "DRAG DROP - Match the types of AI workloads: (1) Identify handwritten letters in an image (2) Perform sentiment analysis on reviews (3) Detect fraudulent credit card payments (4) Predict next month's toy sales figures",
+  q: "Match the types of AI workloads: (1) Identify handwritten letters in an image (2) Perform sentiment analysis on reviews (3) Detect fraudulent credit card payments (4) Predict next month's toy sales figures",
   o: ["A. Computer Vision / NLP / Anomaly Detection / Regression", "B. NLP / Computer Vision / Regression / Anomaly Detection", "C. Computer Vision / Regression / NLP / Anomaly Detection", "D. Anomaly Detection / NLP / Computer Vision / Regression"],
   a: 0,
   e: "Identify letters = Computer Vision. Sentiment analysis = NLP. Fraud detection = Anomaly Detection. Predict sales = Regression (predicting a number).",
@@ -137,7 +137,7 @@ questions[14] = {
 
 questions[15] = {
   id: 15,
-  q: "HOTSPOT - Returning a bounding box that indicates the location of a vehicle in an image is an example of:",
+  q: "Returning a bounding box that indicates the location of a vehicle in an image is an example of:",
   o: ["image classification", "object detection", "semantic segmentation", "optical character recognition"],
   a: 1,
   e: "Object detection returns bounding box coordinates for objects in images. Semantic segmentation would classify each pixel. Image classification just labels the whole image.",
@@ -146,7 +146,7 @@ questions[15] = {
 
 questions[16] = {
   id: 16,
-  q: "HOTSPOT - To complete the sentence: __________ is used to generate additional features from raw data.",
+  q: "To complete the sentence: __________ is used to generate additional features from raw data.",
   o: ["Feature engineering", "Feature selection", "Model evaluation", "Model training"],
   a: 0,
   e: "Feature engineering is applied first to generate additional features from raw data. Feature selection is then used to eliminate irrelevant, redundant, or highly correlated features.",
@@ -173,7 +173,7 @@ questions[18] = {
 
 questions[19] = {
   id: 19,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Providing an explanation of the outcome of a credit loan application is an example of the transparency principle. (2) A triage bot that prioritizes insurance claims based on injuries is an example of the reliability and safety principle. (3) An AI solution offered at different prices for different sales territories is an example of the inclusiveness principle.",
+  q: "For each statement, select Yes or No: (1) Providing an explanation of the outcome of a credit loan application is an example of the transparency principle. (2) A triage bot that prioritizes insurance claims based on injuries is an example of the reliability and safety principle. (3) An AI solution offered at different prices for different sales territories is an example of the inclusiveness principle.",
   o: ["A. Yes / No / No", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / Yes"],
   a: 0,
   e: "Providing explanation = Yes (transparency). Triage bot prioritizing = No (not specifically reliability/safety). Different prices for territories = No (not inclusiveness).",
@@ -182,7 +182,7 @@ questions[19] = {
 
 questions[20] = {
   id: 20,
-  q: "DRAG DROP - Match responsible AI principles to requirements: (1) The system must not discriminate based on gender or race. (2) Personal data must be visible only to approved personnel. (3) Automated decision-making processes must be recorded so approved users can identify why decisions were made.",
+  q: "Match responsible AI principles to requirements: (1) The system must not discriminate based on gender or race. (2) Personal data must be visible only to approved personnel. (3) Automated decision-making processes must be recorded so approved users can identify why decisions were made.",
   o: ["A. Fairness / Privacy and security / Transparency", "B. Inclusiveness / Accountability / Privacy and security", "C. Privacy / Reliability / Fairness", "D. Accountability / Safety / Privacy"],
   a: 0,
   e: "No discrimination based on gender/race = Fairness. Personal data protection = Privacy and security. Recording decisions for explainability = Transparency.",
@@ -191,7 +191,7 @@ questions[20] = {
 
 questions[21] = {
   id: 21,
-  q: "DRAG DROP - You plan to deploy an Azure Machine Learning model as a service. Which three processes should you perform in sequence before deploying the model?",
+  q: "You plan to deploy an Azure Machine Learning model as a service. Which three processes should you perform in sequence before deploying the model?",
   o: ["A. Data preparation → Model training → Model evaluation", "B. Data encryption → Model training → Model deployment", "C. Model training → Data preparation → Model evaluation", "D. Model retraining → Data preparation → Model training"],
   a: 0,
   e: "A typical machine learning project includes: data preparation, model training, model evaluation, then deployment. Data encryption and model retraining are not part of the standard pre-deployment steps.",
@@ -209,7 +209,7 @@ questions[22] = {
 
 questions[23] = {
   id: 23,
-  q: "HOTSPOT - To complete the sentence: An AI system that ensures consistent operation across all user groups regardless of background is following the __________ principle for responsible AI.",
+  q: "To complete the sentence: An AI system that ensures consistent operation across all user groups regardless of background is following the __________ principle for responsible AI.",
   o: ["accountability", "fairness", "inclusiveness", "reliability and safety"],
   a: 2,
   e: "Inclusiveness ensures that AI benefits everyone across all user groups and backgrounds without leaving anyone out.",
@@ -218,7 +218,7 @@ questions[23] = {
 
 questions[24] = {
   id: 24,
-  q: "HOTSPOT - Select the answer that correctly completes the sentence: An AI system that avoids discriminating based on gender, race, sexual orientation, or religion is following the __________ principle.",
+  q: "Select the answer that correctly completes the sentence: An AI system that avoids discriminating based on gender, race, sexual orientation, or religion is following the __________ principle.",
   o: ["accountability", "fairness", "inclusiveness", "transparency"],
   a: 1,
   e: "Fairness is a core ethical principle that ensures the system's decisions don't discriminate or run a bias toward a group or individual based on gender, race, sexual orientation, or religion.",
@@ -227,7 +227,7 @@ questions[24] = {
 
 questions[25] = {
   id: 25,
-  q: "DRAG DROP - Match the types of AI workloads: (1) An automated chatbot to answer questions about refunds and exchanges. (2) Determining whether a photo contains a person. (3) Determining whether a review is positive or negative.",
+  q: "Match the types of AI workloads: (1) An automated chatbot to answer questions about refunds and exchanges. (2) Determining whether a photo contains a person. (3) Determining whether a review is positive or negative.",
   o: ["A. Knowledge mining / Computer vision / NLP", "B. NLP / Computer vision / Knowledge mining", "C. Computer vision / NLP / Knowledge mining", "D. Anomaly detection / Computer vision / NLP"],
   a: 0,
   e: "Knowledge mining powers chatbot answers. Computer vision detects persons in photos. NLP performs sentiment analysis (positive/negative reviews).",
@@ -236,7 +236,7 @@ questions[25] = {
 
 questions[26] = {
   id: 26,
-  q: "DRAG DROP - Match machine learning tasks to scenarios: (1) Outputs a confusion matrix showing true positives, false negatives, etc. (2) Creating new variables from raw data using domain knowledge. (3) Selecting a subset of relevant useful features from available data.",
+  q: "Match machine learning tasks to scenarios: (1) Outputs a confusion matrix showing true positives, false negatives, etc. (2) Creating new variables from raw data using domain knowledge. (3) Selecting a subset of relevant useful features from available data.",
   o: ["A. Model evaluation / Feature engineering / Feature selection", "B. Feature engineering / Model evaluation / Feature selection", "C. Feature selection / Feature engineering / Model evaluation", "D. Model evaluation / Feature selection / Feature engineering"],
   a: 0,
   e: "Confusion matrix = Model evaluation. Creating new variables from raw data = Feature engineering. Selecting relevant features = Feature selection.",
@@ -245,7 +245,7 @@ questions[26] = {
 
 questions[27] = {
   id: 27,
-  q: "HOTSPOT - In a dataset, a column called 'House Price' that you want to predict is called a __________, and the columns used as inputs to the prediction are called __________.",
+  q: "In a dataset, a column called 'House Price' that you want to predict is called a __________, and the columns used as inputs to the prediction are called __________.",
   o: ["A. label / features", "B. feature / labels", "C. column / rows", "D. input / output"],
   a: 0,
   e: "The column you want to predict is the label (output). The columns used as inputs to make the prediction are features (inputs).",
@@ -290,7 +290,7 @@ questions[31] = {
 
 questions[32] = {
   id: 32,
-  q: "HOTSPOT - For each statement about Automated Machine Learning (AutoML), select Yes or No: (1) AutoML automates time-consuming ML model development tasks. (2) AutoML requires you to select the algorithm manually. (3) AutoML creates multiple pipelines in parallel trying different algorithms. (4) AutoML allows you to specify the target metric.",
+  q: "For each statement about Automated Machine Learning (AutoML), select Yes or No: (1) AutoML automates time-consuming ML model development tasks. (2) AutoML requires you to select the algorithm manually. (3) AutoML creates multiple pipelines in parallel trying different algorithms. (4) AutoML allows you to specify the target metric.",
   o: ["A. Yes / No / Yes / Yes", "B. Yes / Yes / No / Yes", "C. No / No / Yes / Yes", "D. Yes / No / No / No"],
   a: 0,
   e: "AutoML yes automates model development. No, it doesn't require manual algorithm selection (it tries them automatically). Yes, it runs parallel pipelines. Yes, you specify the target metric.",
@@ -299,7 +299,7 @@ questions[32] = {
 
 questions[33] = {
   id: 33,
-  q: "HOTSPOT - A banking system that predicts whether a loan will be repaid is an example of which type of machine learning?",
+  q: "A banking system that predicts whether a loan will be repaid is an example of which type of machine learning?",
   o: ["classification", "regression", "clustering"],
   a: 0,
   e: "Classification provides the answer to simple two-choice questions such as Yes/No or True/False. Whether a loan will be repaid (yes or no) is a binary classification problem.",
@@ -308,7 +308,7 @@ questions[33] = {
 
 questions[34] = {
   id: 34,
-  q: "HOTSPOT - For each statement about labeled data, select Yes or No: (1) Labeled data means the data is marked up to show the target answer. (2) Labeled data is used in unsupervised learning. (3) Accuracy is always the best metric for evaluating a classifier.",
+  q: "For each statement about labeled data, select Yes or No: (1) Labeled data means the data is marked up to show the target answer. (2) Labeled data is used in unsupervised learning. (3) Accuracy is always the best metric for evaluating a classifier.",
   o: ["A. Yes / No / No", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / Yes"],
   a: 0,
   e: "Labeled data yes means marked with the target answer. No, labeled data is used in supervised learning (not unsupervised). No, accuracy is poor when data is imbalanced.",
@@ -326,7 +326,7 @@ questions[35] = {
 
 questions[36] = {
   id: 36,
-  q: "HOTSPOT - To complete the sentence: __________ applies advanced machine learning to accurately extract text, key/value pairs, and tables from documents.",
+  q: "To complete the sentence: __________ applies advanced machine learning to accurately extract text, key/value pairs, and tables from documents.",
   o: ["Computer Vision", "Form Recognizer", "Text Analytics", "Language Understanding"],
   a: 1,
   e: "Form Recognizer is designed specifically for extracting text, key/value pairs, and table data from documents using advanced machine learning.",
@@ -344,7 +344,7 @@ questions[37] = {
 
 questions[38] = {
   id: 38,
-  q: "HOTSPOT - To complete the sentence: To perform real-time inferencing in Azure Machine Learning designer, you must deploy a pipeline to __________.",
+  q: "To complete the sentence: To perform real-time inferencing in Azure Machine Learning designer, you must deploy a pipeline to __________.",
   o: ["Azure Container Instances", "Azure Kubernetes Service (AKS)", "Azure Functions", "Azure Batch"],
   a: 1,
   e: "Real-time endpoints must be deployed to an Azure Kubernetes Service (AKS) cluster for production. Azure Container Instances is used for dev/test.",
@@ -353,7 +353,7 @@ questions[38] = {
 
 questions[39] = {
   id: 39,
-  q: "HOTSPOT - To complete the sentence: __________ refers to prediction of a numeric target by establishing a linear relationship between independent variables and a numeric outcome.",
+  q: "To complete the sentence: __________ refers to prediction of a numeric target by establishing a linear relationship between independent variables and a numeric outcome.",
   o: ["Classification", "Regression", "Clustering", "Anomaly detection"],
   a: 1,
   e: "Regression refers to prediction of a numeric target. It establishes a linear relationship between one or more independent variables and a numeric outcome (dependent variable).",
@@ -362,7 +362,7 @@ questions[39] = {
 
 questions[40] = {
   id: 40,
-  q: "HOTSPOT - For each statement about Azure Machine Learning designer, select Yes or No: (1) Designer provides a drag-and-drop visual canvas. (2) Designer enables saving progress as a pipeline draft. (3) Designer enables custom JavaScript functions.",
+  q: "For each statement about Azure Machine Learning designer, select Yes or No: (1) Designer provides a drag-and-drop visual canvas. (2) Designer enables saving progress as a pipeline draft. (3) Designer enables custom JavaScript functions.",
   o: ["A. Yes / Yes / No", "B. Yes / Yes / Yes", "C. No / Yes / No", "D. Yes / No / No"],
   a: 0,
   e: "Designer yes provides visual canvas. Yes, you can save progress as pipeline drafts. No, designer does not support JavaScript - only Python and R modules.",
@@ -371,7 +371,7 @@ questions[40] = {
 
 questions[41] = {
   id: 41,
-  q: "HOTSPOT - You have a dataset to train a model to predict house price categories. You plan to predict House Price Category using Household Income. What are Household Income and House Price Category?",
+  q: "You have a dataset to train a model to predict house price categories. You plan to predict House Price Category using Household Income. What are Household Income and House Price Category?",
   o: ["A. Household Income is a Feature; House Price Category is a Label", "B. Household Income is a Label; House Price Category is a Feature", "C. Both are Features", "D. Both are Labels"],
   a: 0,
   e: "Feature = Input (what you use to make predictions). Label = Output (what you want to predict). Household Income is the input feature; House Price Category is the label to predict.",
@@ -380,7 +380,7 @@ questions[41] = {
 
 questions[42] = {
   id: 42,
-  q: "HOTSPOT - To complete the sentence: Azure Machine Learning designer lets you create machine learning models by __________.",
+  q: "To complete the sentence: Azure Machine Learning designer lets you create machine learning models by __________.",
   o: ["adding and connecting modules on an interactive canvas", "writing code in Python notebooks", "using a wizard to automatically select configurations", "uploading pre-trained models from Azure Marketplace"],
   a: 0,
   e: "Azure Machine Learning designer is a no-code visual drag-and-drop tool where you add and connect modules on an interactive canvas to create machine learning models.",
@@ -389,7 +389,7 @@ questions[42] = {
 
 questions[43] = {
   id: 43,
-  q: "HOTSPOT - For each statement about Automated Machine Learning (AutoML), select Yes or No: (1) AutoML requires programming knowledge. (2) AutoML is a no-code solution. (3) AutoML models can be deployed using the Azure ML studio.",
+  q: "For each statement about Automated Machine Learning (AutoML), select Yes or No: (1) AutoML requires programming knowledge. (2) AutoML is a no-code solution. (3) AutoML models can be deployed using the Azure ML studio.",
   o: ["A. No / Yes / No", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / Yes"],
   a: 0,
   e: "No, AutoML doesn't require programming. Yes, it is a no-code solution. No (not directly always) - deployment configuration is done via Azure ML studio experience.",
@@ -443,7 +443,7 @@ questions[48] = {
 
 questions[49] = {
   id: 49,
-  q: "HOTSPOT - For each scenario, select Yes if it's an example of clustering, otherwise No: (1) Organizing documents into groups based on similarities. (2) Grouping similar patients based on symptoms. (3) Predicting the severity of a patient's allergy based on pollen count.",
+  q: "For each scenario, select Yes if it's an example of clustering, otherwise No: (1) Organizing documents into groups based on similarities. (2) Grouping similar patients based on symptoms. (3) Predicting the severity of a patient's allergy based on pollen count.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Organizing documents by similarity = Yes (clustering). Grouping patients by symptoms = Yes (clustering). Predicting severity = No (this is regression/classification, not clustering).",
@@ -479,7 +479,7 @@ questions[52] = {
 
 questions[53] = {
   id: 53,
-  q: "HOTSPOT - To complete the sentence: In machine learning, the variable that a model is trained to predict is called the __________.",
+  q: "To complete the sentence: In machine learning, the variable that a model is trained to predict is called the __________.",
   o: ["feature", "label", "column", "algorithm"],
   a: 1,
   e: "The variable that the model is trained to predict is the label (also called the target or output). The inputs used to make predictions are called features.",
@@ -497,7 +497,7 @@ questions[54] = {
 
 questions[55] = {
   id: 55,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Feature selection can improve model performance. (2) Feature engineering creates new features from existing data. (3) Removing irrelevant features always reduces model accuracy.",
+  q: "For each statement, select Yes or No: (1) Feature selection can improve model performance. (2) Feature engineering creates new features from existing data. (3) Removing irrelevant features always reduces model accuracy.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Feature selection yes can improve performance by removing noise. Feature engineering yes creates new features. No, removing irrelevant features typically improves accuracy by reducing noise.",
@@ -524,7 +524,7 @@ questions[57] = {
 
 questions[58] = {
   id: 58,
-  q: "HOTSPOT - To complete the sentence: Azure Machine Learning designer saves your in-progress work as a __________.",
+  q: "To complete the sentence: Azure Machine Learning designer saves your in-progress work as a __________.",
   o: ["model checkpoint", "pipeline draft", "experiment run", "training job"],
   a: 1,
   e: "As you edit a pipeline in the designer, your progress is automatically saved as a pipeline draft.",
@@ -533,7 +533,7 @@ questions[58] = {
 
 questions[59] = {
   id: 59,
-  q: "DRAG DROP - Match machine learning types to scenarios: (1) Predict the temperature of the ocean next month. (2) Group customers into categories based on preferences. (3) Predict whether a patient has a specific disease (yes/no).",
+  q: "Match machine learning types to scenarios: (1) Predict the temperature of the ocean next month. (2) Group customers into categories based on preferences. (3) Predict whether a patient has a specific disease (yes/no).",
   o: ["A. Regression / Clustering / Classification", "B. Classification / Regression / Clustering", "C. Clustering / Classification / Regression", "D. Regression / Classification / Clustering"],
   a: 0,
   e: "Predict temperature (numeric) = Regression. Group customers = Clustering. Predict yes/no disease = Classification.",
@@ -551,7 +551,7 @@ questions[60] = {
 
 questions[61] = {
   id: 61,
-  q: "HOTSPOT - Ensuring an AI system does not provide a prediction when important input fields contain unusual or missing values is which responsible AI principle?",
+  q: "Ensuring an AI system does not provide a prediction when important input fields contain unusual or missing values is which responsible AI principle?",
   o: ["inclusiveness", "privacy and security", "reliability and safety", "transparency"],
   a: 2,
   e: "Reliability and safety ensures the AI system handles edge cases (like missing or unusual values) safely, not making unsafe predictions when the input is unreliable.",
@@ -569,7 +569,7 @@ questions[62] = {
 
 questions[63] = {
   id: 63,
-  q: "HOTSPOT - To complete the sentence: In Azure Machine Learning automated ML, the __________ is the column in the dataset that the model will be trained to predict.",
+  q: "To complete the sentence: In Azure Machine Learning automated ML, the __________ is the column in the dataset that the model will be trained to predict.",
   o: ["feature column", "target column (label)", "primary metric", "data split column"],
   a: 1,
   e: "The target column (label) is what AutoML trains the model to predict. It corresponds to the label in supervised learning.",
@@ -578,7 +578,7 @@ questions[63] = {
 
 questions[64] = {
   id: 64,
-  q: "HOTSPOT - You have an Azure ML model predicting product quality. The dataset includes: Timestamp, Measurement1, Measurement2, Pass/Fail. For each: Timestamp is a useful feature? Measurements are features? Pass/Fail is the label?",
+  q: "You have an Azure ML model predicting product quality. The dataset includes: Timestamp, Measurement1, Measurement2, Pass/Fail. For each: Timestamp is a useful feature? Measurements are features? Pass/Fail is the label?",
   o: ["A. Yes / Yes / Yes", "B. Yes / No / Yes", "C. No / Yes / Yes", "D. Yes / Yes / No"],
   a: 0,
   e: "Timestamp yes can be a feature (time-based patterns). Measurements yes are features (inputs). Pass/Fail yes is the label (what you predict).",
@@ -596,7 +596,7 @@ questions[65] = {
 
 questions[66] = {
   id: 66,
-  q: "HOTSPOT - To complete the sentence: A model that can correctly classify images as containing cats or dogs, but fails on new images it has never seen, is suffering from __________.",
+  q: "To complete the sentence: A model that can correctly classify images as containing cats or dogs, but fails on new images it has never seen, is suffering from __________.",
   o: ["underfitting", "overfitting", "bias", "variance reduction"],
   a: 1,
   e: "Overfitting occurs when a model learns the training data too well but fails to generalize to new, unseen data.",
@@ -623,7 +623,7 @@ questions[68] = {
 
 questions[69] = {
   id: 69,
-  q: "HOTSPOT - To complete the sentence: In a confusion matrix, a __________ occurs when the model predicts a positive result but the actual result is negative.",
+  q: "To complete the sentence: In a confusion matrix, a __________ occurs when the model predicts a positive result but the actual result is negative.",
   o: ["True Positive (TP)", "True Negative (TN)", "False Positive (FP)", "False Negative (FN)"],
   a: 2,
   e: "False Positive (FP) = model predicts positive but actual is negative. False Negative (FN) = model predicts negative but actual is positive.",
@@ -641,7 +641,7 @@ questions[70] = {
 
 questions[71] = {
   id: 71,
-  q: "HOTSPOT - For each statement about Custom Vision, select Yes or No: (1) You must choose multilabel or multiclass classification. (2) Object detection can find the location of content in an image. (3) You can select from predefined domains to optimize the model.",
+  q: "For each statement about Custom Vision, select Yes or No: (1) You must choose multilabel or multiclass classification. (2) Object detection can find the location of content in an image. (3) You can select from predefined domains to optimize the model.",
   o: ["A. No / Yes / Yes", "B. Yes / Yes / No", "C. No / No / Yes", "D. Yes / No / Yes"],
   a: 0,
   e: "Multilabel/multiclass is optional (you can also do object detection). Yes, object detection returns bounding boxes/locations. Yes, Custom Vision provides predefined domains (food, landmarks, retail, etc.).",
@@ -659,7 +659,7 @@ questions[72] = {
 
 questions[73] = {
   id: 73,
-  q: "HOTSPOT - To complete the sentence: __________ is a type of object recognition that identifies the specific location of items within an image by returning coordinates of a bounding box.",
+  q: "To complete the sentence: __________ is a type of object recognition that identifies the specific location of items within an image by returning coordinates of a bounding box.",
   o: ["Image classification", "Object detection", "Semantic segmentation", "Facial recognition"],
   a: 1,
   e: "Object detection identifies and locates items in an image by returning bounding box coordinates (x, y, width, height) for each detected object.",
@@ -668,7 +668,7 @@ questions[73] = {
 
 questions[74] = {
   id: 74,
-  q: "HOTSPOT - You have a database that contains a list of employees and their photos. You are tagging new photos of the employees. For each statement, select Yes or No: (1) The Face service can be used to detect faces in the new photos. (2) Providing multiple angles of a person's face improves recognition accuracy. (3) The Face service will always detect a face even if it is occluded by sunglasses.",
+  q: "You have a database that contains a list of employees and their photos. You are tagging new photos of the employees. For each statement, select Yes or No: (1) The Face service can be used to detect faces in the new photos. (2) Providing multiple angles of a person's face improves recognition accuracy. (3) The Face service will always detect a face even if it is occluded by sunglasses.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Yes, Face service detects faces and their attributes. Yes, providing multiple angles (frontal, profile) improves feature representation and reduces false positives. No, occlusions like sunglasses can sometimes prevent face detection — 'always' is too strong; some occlusions can be inferred but not all.",
@@ -686,7 +686,7 @@ questions[75] = {
 
 questions[76] = {
   id: 76,
-  q: "HOTSPOT - For each statement about Custom Vision image classification, select Yes or No: (1) Image classification applies a label to the whole image. (2) You need to label images yourself to train the model. (3) Custom Vision can be used on video files.",
+  q: "For each statement about Custom Vision image classification, select Yes or No: (1) Image classification applies a label to the whole image. (2) You need to label images yourself to train the model. (3) Custom Vision can be used on video files.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Image classification yes applies labels to whole images. Yes, you must label training images. No, Custom Vision only works on graphic/image files, not video files.",
@@ -704,7 +704,7 @@ questions[77] = {
 
 questions[78] = {
   id: 78,
-  q: "DRAG DROP - Match computer vision types to their descriptions: (1) Classify camera trap images as containing polar bears or brown bears. (2) Identify the location and type of each animal in an image. (3) Analyze images pixel-by-pixel to determine the exact boundary of each object.",
+  q: "Match computer vision types to their descriptions: (1) Classify camera trap images as containing polar bears or brown bears. (2) Identify the location and type of each animal in an image. (3) Analyze images pixel-by-pixel to determine the exact boundary of each object.",
   o: ["A. Image classification / Object detection / Semantic segmentation", "B. Object detection / Image classification / Semantic segmentation", "C. Semantic segmentation / Object detection / Image classification", "D. Image classification / Semantic segmentation / Object detection"],
   a: 0,
   e: "Classifying bears as polar or brown = Image classification (whole-image label). Identifying location and type of each animal = Object detection (bounding boxes). Pixel-level boundary analysis = Semantic segmentation (each pixel gets a class label).",
@@ -722,7 +722,7 @@ questions[79] = {
 
 questions[80] = {
   id: 80,
-  q: "DRAG DROP - Match Face API operations to descriptions: (1) Determine whether two detected faces are from the same person. (2) Find faces in a database that are similar-looking to a detected face. (3) Organize detected faces into groups based on visual similarity. (4) Match a detected face against a database to identify who the person is.",
+  q: "Match Face API operations to descriptions: (1) Determine whether two detected faces are from the same person. (2) Find faces in a database that are similar-looking to a detected face. (3) Organize detected faces into groups based on visual similarity. (4) Match a detected face against a database to identify who the person is.",
   o: ["A. Verification / Similarity / Grouping / Identification", "B. Identification / Grouping / Similarity / Verification", "C. Similarity / Verification / Identification / Grouping", "D. Grouping / Identification / Verification / Similarity"],
   a: 0,
   e: "Verification: checks if two faces belong to the same person. Similarity: finds faces that look similar. Grouping: clusters similar faces together. Identification: matches a face against a known database of people.",
@@ -731,7 +731,7 @@ questions[80] = {
 
 questions[81] = {
   id: 81,
-  q: "HOTSPOT - For each statement about the Face API, select Yes or No: (1) The Face API can detect faces and their locations in images. (2) The Face API can recognize specific people's identities. (3) The Face API can detect emotions from facial expressions.",
+  q: "For each statement about the Face API, select Yes or No: (1) The Face API can detect faces and their locations in images. (2) The Face API can recognize specific people's identities. (3) The Face API can detect emotions from facial expressions.",
   o: ["A. Yes / Yes / Yes", "B. Yes / No / Yes", "C. Yes / Yes / No", "D. No / Yes / Yes"],
   a: 0,
   e: "Face API yes can detect faces and locations. Yes it can recognize identities (face verification/identification). Yes it can detect emotions like happiness, sadness, anger.",
@@ -749,7 +749,7 @@ questions[82] = {
 
 questions[83] = {
   id: 83,
-  q: "HOTSPOT - You can use the __________ service to train an object detection model by using your own images.",
+  q: "You can use the __________ service to train an object detection model by using your own images.",
   o: ["Computer Vision", "Custom Vision", "Form Recognizer", "Video Indexer"],
   a: 1,
   e: "Custom Vision lets you train custom object detection models with your own labeled images. Computer Vision is pre-built and doesn't require training.",
@@ -803,7 +803,7 @@ questions[88] = {
 
 questions[89] = {
   id: 89,
-  q: "HOTSPOT - For each scenario, select Yes if it is an example of a Form Recognizer use case, otherwise No: (1) Identify the retailer from a receipt. (2) Extract the invoice number from an invoice. (3) Translate a form from French to English.",
+  q: "For each scenario, select Yes if it is an example of a Form Recognizer use case, otherwise No: (1) Identify the retailer from a receipt. (2) Extract the invoice number from an invoice. (3) Translate a form from French to English.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Yes, Form Recognizer has a pre-built receipt model that identifies retailers. Yes, Form Recognizer can extract invoice numbers from invoices. No, translating text from French to English is done by the Azure Translator service, not Form Recognizer.",
@@ -812,7 +812,7 @@ questions[89] = {
 
 questions[90] = {
   id: 90,
-  q: "DRAG DROP - Match computer vision scenarios: (1) A solution that reads text in street signs. (2) A solution that identifies whether an image contains a cat. (3) A solution that detects and draws boxes around each car in a parking lot image.",
+  q: "Match computer vision scenarios: (1) A solution that reads text in street signs. (2) A solution that identifies whether an image contains a cat. (3) A solution that detects and draws boxes around each car in a parking lot image.",
   o: ["A. OCR / Image classification / Object detection", "B. Object detection / OCR / Image classification", "C. Image classification / OCR / Object detection", "D. OCR / Object detection / Image classification"],
   a: 0,
   e: "Reading text from signs = OCR. Identifying if image contains a cat = Image classification. Drawing boxes around cars = Object detection.",
@@ -830,7 +830,7 @@ questions[91] = {
 
 questions[92] = {
   id: 92,
-  q: "HOTSPOT - To complete the sentence: __________ is a computer vision technique that can identify the location of specific objects within an image and return bounding box coordinates.",
+  q: "To complete the sentence: __________ is a computer vision technique that can identify the location of specific objects within an image and return bounding box coordinates.",
   o: ["Image classification", "Object detection", "Facial recognition", "OCR"],
   a: 1,
   e: "Object detection identifies the location of specific objects within images and returns bounding box coordinates for each detected object.",
@@ -875,7 +875,7 @@ questions[96] = {
 
 questions[97] = {
   id: 97,
-  q: "HOTSPOT - For each statement about Azure Cognitive Speech services, select Yes or No: (1) Speech-to-text converts spoken language to text. (2) Text-to-speech converts text to spoken audio. (3) Speech translation requires a separate Translator service.",
+  q: "For each statement about Azure Cognitive Speech services, select Yes or No: (1) Speech-to-text converts spoken language to text. (2) Text-to-speech converts text to spoken audio. (3) Speech translation requires a separate Translator service.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Speech-to-text yes converts spoken to text. Text-to-speech yes converts text to audio. No, the Speech service includes speech translation built-in (speech-to-text + translation).",
@@ -893,7 +893,7 @@ questions[98] = {
 
 questions[99] = {
   id: 99,
-  q: "DRAG DROP - Match speech-related scenarios to the correct Azure capability: (1) A user speaks a command and the app converts it to text. (2) A navigation app reads directions aloud. (3) A user speaks in English and the app understands it in French.",
+  q: "Match speech-related scenarios to the correct Azure capability: (1) A user speaks a command and the app converts it to text. (2) A navigation app reads directions aloud. (3) A user speaks in English and the app understands it in French.",
   o: ["A. Speech-to-text / Text-to-speech / Speech translation", "B. Text-to-speech / Speech-to-text / Speech translation", "C. Speech translation / Speech-to-text / Text-to-speech", "D. Speech-to-text / Speech translation / Text-to-speech"],
   a: 0,
   e: "Speaking command to app = Speech-to-text. App reads aloud = Text-to-speech. Speaking in one language understood in another = Speech translation.",
@@ -902,7 +902,7 @@ questions[99] = {
 
 questions[100] = {
   id: 100,
-  q: "HOTSPOT - To complete the sentence: __________ is used to identify the intent behind user text or voice input, enabling AI applications to understand what a user wants to do.",
+  q: "To complete the sentence: __________ is used to identify the intent behind user text or voice input, enabling AI applications to understand what a user wants to do.",
   o: ["Key phrase extraction", "Language Understanding (LUIS)", "Sentiment analysis", "Translation"],
   a: 1,
   e: "Language Understanding (LUIS), now part of the Azure Language service, identifies intent from user input, enabling applications to understand what the user wants to do.",
@@ -920,7 +920,7 @@ questions[101] = {
 
 questions[102] = {
   id: 102,
-  q: "HOTSPOT - For each statement about Azure Language service NLP capabilities, select Yes or No: (1) Entity recognition can identify people, places, and organizations in text. (2) Language detection identifies what language a document is written in. (3) Key phrase extraction determines if text is positive or negative.",
+  q: "For each statement about Azure Language service NLP capabilities, select Yes or No: (1) Entity recognition can identify people, places, and organizations in text. (2) Language detection identifies what language a document is written in. (3) Key phrase extraction determines if text is positive or negative.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Entity recognition yes identifies people, places, organizations. Language detection yes identifies the language. No, key phrase extraction identifies main topics, not sentiment.",
@@ -947,7 +947,7 @@ questions[104] = {
 
 questions[105] = {
   id: 105,
-  q: "HOTSPOT - For each statement about Language Understanding (LUIS), select Yes or No: (1) LUIS identifies the intent of a user utterance. (2) LUIS can extract entities (like dates, locations) from utterances. (3) LUIS creates conversational flows with dialog management.",
+  q: "For each statement about Language Understanding (LUIS), select Yes or No: (1) LUIS identifies the intent of a user utterance. (2) LUIS can extract entities (like dates, locations) from utterances. (3) LUIS creates conversational flows with dialog management.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "LUIS yes identifies intent from utterances. Yes, LUIS extracts entities like dates, names, locations. No, LUIS doesn't manage dialog flows (that's Bot Framework or Power Virtual Agents).",
@@ -956,7 +956,7 @@ questions[105] = {
 
 questions[106] = {
   id: 106,
-  q: "HOTSPOT - To complete the sentence: The Azure __________ service translates text between languages and supports real-time translation of documents.",
+  q: "To complete the sentence: The Azure __________ service translates text between languages and supports real-time translation of documents.",
   o: ["Speech", "Translator", "Language", "Form Recognizer"],
   a: 1,
   e: "The Azure Translator service provides text translation between languages and supports document translation.",
@@ -974,7 +974,7 @@ questions[107] = {
 
 questions[108] = {
   id: 108,
-  q: "DRAG DROP - Match NLP capabilities to scenarios: (1) A user asks 'What's the weather like?' and the app identifies the question is about weather. (2) A document mentions 'Microsoft' and the app identifies it as an organization. (3) A user's review is identified as 'mostly positive'.",
+  q: "Match NLP capabilities to scenarios: (1) A user asks 'What's the weather like?' and the app identifies the question is about weather. (2) A document mentions 'Microsoft' and the app identifies it as an organization. (3) A user's review is identified as 'mostly positive'.",
   o: ["A. Intent recognition / Entity recognition / Sentiment analysis", "B. Sentiment analysis / Entity recognition / Intent recognition", "C. Entity recognition / Intent recognition / Sentiment analysis", "D. Intent recognition / Sentiment analysis / Entity recognition"],
   a: 0,
   e: "Identifying what user wants (weather) = Intent recognition. Identifying 'Microsoft' as organization = Entity recognition. Rating review as positive = Sentiment analysis.",
@@ -983,7 +983,7 @@ questions[108] = {
 
 questions[109] = {
   id: 109,
-  q: "HOTSPOT - For each statement about Azure Cognitive Services, select Yes or No: (1) Cognitive Services require extensive machine learning expertise to use. (2) Cognitive Services can be accessed via REST APIs. (3) Cognitive Services provide pre-trained models.",
+  q: "For each statement about Azure Cognitive Services, select Yes or No: (1) Cognitive Services require extensive machine learning expertise to use. (2) Cognitive Services can be accessed via REST APIs. (3) Cognitive Services provide pre-trained models.",
   o: ["A. No / Yes / Yes", "B. Yes / Yes / No", "C. No / No / Yes", "D. Yes / No / Yes"],
   a: 0,
   e: "No, Cognitive Services don't require ML expertise (pre-built). Yes, they're accessed via REST APIs and SDKs. Yes, they provide pre-trained models.",
@@ -1001,7 +1001,7 @@ questions[110] = {
 
 questions[111] = {
   id: 111,
-  q: "HOTSPOT - To complete the sentence: __________ is the practice of creating AI systems that are designed to benefit humanity while avoiding potential harms.",
+  q: "To complete the sentence: __________ is the practice of creating AI systems that are designed to benefit humanity while avoiding potential harms.",
   o: ["Machine learning", "Responsible AI", "Deep learning", "Cognitive computing"],
   a: 1,
   e: "Responsible AI is the practice of designing and deploying AI systems in a way that benefits humanity, avoids harms, and follows ethical guidelines.",
@@ -1010,7 +1010,7 @@ questions[111] = {
 
 questions[112] = {
   id: 112,
-  q: "HOTSPOT - For each statement about Azure Knowledge Mining, select Yes or No: (1) Knowledge mining uses AI to extract information and insights from large amounts of unstructured data. (2) Azure Cognitive Search is a key service for knowledge mining. (3) Knowledge mining replaces the need for human experts.",
+  q: "For each statement about Azure Knowledge Mining, select Yes or No: (1) Knowledge mining uses AI to extract information and insights from large amounts of unstructured data. (2) Azure Cognitive Search is a key service for knowledge mining. (3) Knowledge mining replaces the need for human experts.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Knowledge mining yes uses AI to extract insights from unstructured data. Yes, Azure Cognitive Search is the primary service. No, it doesn't replace human experts, it augments them.",
@@ -1028,7 +1028,7 @@ questions[113] = {
 
 questions[114] = {
   id: 114,
-  q: "DRAG DROP - Match the Azure AI services to their primary purpose: (1) Translating text between 100+ languages. (2) Extracting text from scanned documents. (3) Answering questions based on a knowledge base.",
+  q: "Match the Azure AI services to their primary purpose: (1) Translating text between 100+ languages. (2) Extracting text from scanned documents. (3) Answering questions based on a knowledge base.",
   o: ["A. Translator / Form Recognizer / Language service (QnA)", "B. Language service / Translator / Form Recognizer", "C. Form Recognizer / Language service / Translator", "D. Translator / Language service / Form Recognizer"],
   a: 0,
   e: "Text translation = Translator. Extracting text from documents = Form Recognizer. QnA knowledge base = Language service (Custom Question Answering).",
@@ -1037,7 +1037,7 @@ questions[114] = {
 
 questions[115] = {
   id: 115,
-  q: "HOTSPOT - For each statement about Azure Bot Service, select Yes or No: (1) Azure Bot Service can integrate with Microsoft Teams. (2) Azure Bot Service requires coding knowledge to use. (3) Azure Bot Service can be combined with LUIS for natural language understanding.",
+  q: "For each statement about Azure Bot Service, select Yes or No: (1) Azure Bot Service can integrate with Microsoft Teams. (2) Azure Bot Service requires coding knowledge to use. (3) Azure Bot Service can be combined with LUIS for natural language understanding.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / Yes", "C. No / Yes / No", "D. Yes / No / No"],
   a: 0,
   e: "Bot Service yes integrates with Teams and other channels. No, Power Virtual Agents is the no-code option; Bot Service has both options. Yes, Bot Service is commonly paired with LUIS.",
@@ -1046,7 +1046,7 @@ questions[115] = {
 
 questions[116] = {
   id: 116,
-  q: "HOTSPOT - To complete the sentence: A bot that understands that 'book a table for tonight' and 'reserve a spot for dinner this evening' mean the same thing is using __________ understanding.",
+  q: "To complete the sentence: A bot that understands that 'book a table for tonight' and 'reserve a spot for dinner this evening' mean the same thing is using __________ understanding.",
   o: ["entity", "intent", "natural language", "sentiment"],
   a: 2,
   e: "Natural language understanding (via LUIS or Language service) allows the bot to understand that different phrasings express the same intent.",
@@ -1064,7 +1064,7 @@ questions[117] = {
 
 questions[118] = {
   id: 118,
-  q: "HOTSPOT - For each statement about responsible AI, select Yes or No: (1) AI systems should be able to explain their decisions. (2) AI developers have no accountability for how their systems are used. (3) Fairness in AI means the system should avoid discriminating based on protected characteristics.",
+  q: "For each statement about responsible AI, select Yes or No: (1) AI systems should be able to explain their decisions. (2) AI developers have no accountability for how their systems are used. (3) Fairness in AI means the system should avoid discriminating based on protected characteristics.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / No"],
   a: 0,
   e: "Yes, AI systems should explain decisions (transparency). No, developers ARE accountable for their systems (accountability principle). Yes, fairness means avoiding discrimination.",
@@ -1082,7 +1082,7 @@ questions[119] = {
 
 questions[120] = {
   id: 120,
-  q: "HOTSPOT - To complete the sentence: When Microsoft says AI systems should be __________, it means the systems' decisions can be understood and explained to users and stakeholders.",
+  q: "To complete the sentence: When Microsoft says AI systems should be __________, it means the systems' decisions can be understood and explained to users and stakeholders.",
   o: ["fair", "inclusive", "transparent", "reliable"],
   a: 2,
   e: "Transparency means AI systems' decisions can be understood and explained. It ensures stakeholders can understand how and why decisions are made.",
@@ -1091,7 +1091,7 @@ questions[120] = {
 
 questions[121] = {
   id: 121,
-  q: "HOTSPOT - For each scenario, identify which responsible AI principle applies: (1) An AI system maintains consistent performance even when given edge-case inputs. (2) An AI company publishes detailed documentation about how their models work. (3) An AI system requires a human to approve any high-stakes decisions.",
+  q: "For each scenario, identify which responsible AI principle applies: (1) An AI system maintains consistent performance even when given edge-case inputs. (2) An AI company publishes detailed documentation about how their models work. (3) An AI system requires a human to approve any high-stakes decisions.",
   o: ["A. Reliability and safety / Transparency / Accountability", "B. Fairness / Privacy / Accountability", "C. Transparency / Reliability / Fairness", "D. Reliability / Fairness / Transparency"],
   a: 0,
   e: "Consistent performance on edge cases = Reliability and safety. Publishing documentation = Transparency. Human approval for high-stakes decisions = Accountability.",
@@ -1109,7 +1109,7 @@ questions[122] = {
 
 questions[123] = {
   id: 123,
-  q: "HOTSPOT - For each statement about Azure Cognitive Services pricing, select Yes or No: (1) Cognitive Services offer a free tier with limited usage. (2) Usage is typically priced per API call or per unit of data processed. (3) You need to pay upfront for a fixed number of transactions.",
+  q: "For each statement about Azure Cognitive Services pricing, select Yes or No: (1) Cognitive Services offer a free tier with limited usage. (2) Usage is typically priced per API call or per unit of data processed. (3) You need to pay upfront for a fixed number of transactions.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Yes, Cognitive Services offer free tiers. Yes, pricing is per API call or data unit. No, they use a pay-as-you-go model, not upfront fixed transactions.",
@@ -1118,7 +1118,7 @@ questions[123] = {
 
 questions[124] = {
   id: 124,
-  q: "HOTSPOT - For each statement about machine learning, select Yes or No: (1) Machine learning models improve through experience without being explicitly programmed. (2) Traditional rule-based systems can handle the same complexity as machine learning. (3) Supervised learning requires labeled training data.",
+  q: "For each statement about machine learning, select Yes or No: (1) Machine learning models improve through experience without being explicitly programmed. (2) Traditional rule-based systems can handle the same complexity as machine learning. (3) Supervised learning requires labeled training data.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / No / Yes", "D. Yes / No / No"],
   a: 0,
   e: "ML yes improves through experience. No, rule-based systems can't handle the same complexity as ML for complex tasks. Yes, supervised learning requires labeled data.",
@@ -1136,7 +1136,7 @@ questions[125] = {
 
 questions[126] = {
   id: 126,
-  q: "HOTSPOT - To complete the sentence: __________ learning is a subset of machine learning where neural networks with many layers learn from large amounts of data.",
+  q: "To complete the sentence: __________ learning is a subset of machine learning where neural networks with many layers learn from large amounts of data.",
   o: ["Reinforcement", "Deep", "Transfer", "Federated"],
   a: 1,
   e: "Deep learning uses neural networks with many layers (deep neural networks) to learn complex patterns from large amounts of data.",
@@ -1154,7 +1154,7 @@ questions[127] = {
 
 questions[128] = {
   id: 128,
-  q: "HOTSPOT - For each statement about computer vision applications, select Yes or No: (1) Computer vision can be used in autonomous vehicles to detect road hazards. (2) Computer vision can determine the sentiment of a social media post. (3) Computer vision can identify damaged items in a manufacturing quality control system.",
+  q: "For each statement about computer vision applications, select Yes or No: (1) Computer vision can be used in autonomous vehicles to detect road hazards. (2) Computer vision can determine the sentiment of a social media post. (3) Computer vision can identify damaged items in a manufacturing quality control system.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Autonomous vehicles yes use computer vision. No, sentiment is NLP not computer vision. Quality control yes uses computer vision to identify defects.",
@@ -1172,7 +1172,7 @@ questions[129] = {
 
 questions[130] = {
   id: 130,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Azure Cognitive Services include pre-trained models for common AI tasks. (2) Azure Cognitive Services can only be used by experienced data scientists. (3) Azure Cognitive Services are accessible through REST APIs and client SDKs.",
+  q: "For each statement, select Yes or No: (1) Azure Cognitive Services include pre-trained models for common AI tasks. (2) Azure Cognitive Services can only be used by experienced data scientists. (3) Azure Cognitive Services are accessible through REST APIs and client SDKs.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / Yes", "C. No / No / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Yes, Cognitive Services include pre-trained models. No, they're designed for developers of all skill levels. Yes, they're accessible via REST APIs and SDKs.",
@@ -1190,7 +1190,7 @@ questions[131] = {
 
 questions[132] = {
   id: 132,
-  q: "HOTSPOT - To complete the sentence: __________ AI refers to AI systems designed for a specific narrow task, such as face recognition or spam filtering, in contrast to AI that can perform any intellectual task.",
+  q: "To complete the sentence: __________ AI refers to AI systems designed for a specific narrow task, such as face recognition or spam filtering, in contrast to AI that can perform any intellectual task.",
   o: ["General", "Narrow", "Strong", "Superintelligent"],
   a: 1,
   e: "Narrow AI (also called Weak AI) is designed for specific tasks. All current AI systems are narrow AI. General AI would perform any intellectual task.",
@@ -1208,7 +1208,7 @@ questions[133] = {
 
 questions[134] = {
   id: 134,
-  q: "HOTSPOT - For each statement about anomaly detection, select Yes or No: (1) Anomaly detection can identify unusual network traffic indicating a cyber attack. (2) Anomaly detection predicts a specific numeric value. (3) Anomaly detection can identify fraudulent financial transactions.",
+  q: "For each statement about anomaly detection, select Yes or No: (1) Anomaly detection can identify unusual network traffic indicating a cyber attack. (2) Anomaly detection predicts a specific numeric value. (3) Anomaly detection can identify fraudulent financial transactions.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Unusual network traffic = Yes (anomaly detection). Predicting specific numeric value = No (that's regression). Fraud detection = Yes (anomaly detection).",
@@ -1217,7 +1217,7 @@ questions[134] = {
 
 questions[135] = {
   id: 135,
-  q: "HOTSPOT - For each statement about Azure Machine Learning workspace, select Yes or No: (1) A workspace stores all assets related to machine learning projects. (2) You can share a workspace across multiple teams. (3) A workspace requires a physical dedicated server.",
+  q: "For each statement about Azure Machine Learning workspace, select Yes or No: (1) A workspace stores all assets related to machine learning projects. (2) You can share a workspace across multiple teams. (3) A workspace requires a physical dedicated server.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Workspace yes stores all ML assets. Yes, workspaces can be shared. No, workspaces are cloud-based, not requiring physical servers.",
@@ -1235,7 +1235,7 @@ questions[136] = {
 
 questions[137] = {
   id: 137,
-  q: "HOTSPOT - To complete the sentence: __________ is the process of deploying a trained machine learning model so it can be used to make predictions on new data.",
+  q: "To complete the sentence: __________ is the process of deploying a trained machine learning model so it can be used to make predictions on new data.",
   o: ["Model training", "Model evaluation", "Model deployment", "Data preparation"],
   a: 2,
   e: "Model deployment is making a trained model available as a service to make predictions on new, real-world data.",
@@ -1244,7 +1244,7 @@ questions[137] = {
 
 questions[138] = {
   id: 138,
-  q: "HOTSPOT - For each statement about the Microsoft responsible AI principles, select Yes or No: (1) There are six guiding principles for responsible AI. (2) Transparency means the system should be fair to all users. (3) Accountability means humans take responsibility for AI system decisions.",
+  q: "For each statement about the Microsoft responsible AI principles, select Yes or No: (1) There are six guiding principles for responsible AI. (2) Transparency means the system should be fair to all users. (3) Accountability means humans take responsibility for AI system decisions.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / No"],
   a: 0,
   e: "Yes, there are six principles. No, transparency means explainability (not fairness - that's the fairness principle). Yes, accountability means humans take responsibility.",
@@ -1253,7 +1253,7 @@ questions[138] = {
 
 questions[139] = {
   id: 139,
-  q: "HOTSPOT - For each statement about privacy and security in AI, select Yes or No: (1) AI systems must comply with privacy laws regarding data collection and use. (2) Privacy and security only apply to personal data, not business data. (3) AI systems should minimize the collection of personal data.",
+  q: "For each statement about privacy and security in AI, select Yes or No: (1) AI systems must comply with privacy laws regarding data collection and use. (2) Privacy and security only apply to personal data, not business data. (3) AI systems should minimize the collection of personal data.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / No"],
   a: 0,
   e: "Yes, AI must comply with privacy laws. No, privacy and security apply to all sensitive data, not just personal. Yes, data minimization is a key privacy principle.",
@@ -1271,7 +1271,7 @@ questions[140] = {
 
 questions[141] = {
   id: 141,
-  q: "HOTSPOT - For each statement about NLP tasks, select Yes or No: (1) Sentiment analysis can determine whether text is positive, negative, or neutral. (2) Language detection identifies the intent of a sentence. (3) Named Entity Recognition (NER) can identify company names in text.",
+  q: "For each statement about NLP tasks, select Yes or No: (1) Sentiment analysis can determine whether text is positive, negative, or neutral. (2) Language detection identifies the intent of a sentence. (3) Named Entity Recognition (NER) can identify company names in text.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / No"],
   a: 0,
   e: "Sentiment yes determines positive/negative/neutral. No, language detection identifies the language (not intent; that's LUIS). NER yes identifies entities like company names.",
@@ -1289,7 +1289,7 @@ questions[142] = {
 
 questions[143] = {
   id: 143,
-  q: "HOTSPOT - To complete the sentence: __________ refers to AI workloads that process and analyze visual information from the world, including images and video.",
+  q: "To complete the sentence: __________ refers to AI workloads that process and analyze visual information from the world, including images and video.",
   o: ["Natural language processing", "Computer vision", "Anomaly detection", "Conversational AI"],
   a: 1,
   e: "Computer vision is the AI workload that processes and analyzes visual information from images and video, mimicking human visual perception.",
@@ -1307,7 +1307,7 @@ questions[144] = {
 
 questions[145] = {
   id: 145,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Azure Cognitive Services can be deployed to edge devices. (2) Cognitive Services containers require an internet connection to run. (3) Cognitive Services can process data locally to meet data residency requirements.",
+  q: "For each statement, select Yes or No: (1) Azure Cognitive Services can be deployed to edge devices. (2) Cognitive Services containers require an internet connection to run. (3) Cognitive Services can process data locally to meet data residency requirements.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / Yes", "C. No / Yes / No", "D. Yes / No / No"],
   a: 0,
   e: "Yes, Cognitive Services can run in Docker containers on edge devices. No, containerized services don't require constant internet (only for billing). Yes, local processing meets data residency requirements.",
@@ -1325,7 +1325,7 @@ questions[146] = {
 
 questions[147] = {
   id: 147,
-  q: "HOTSPOT - To complete the sentence: The __________ principle of responsible AI focuses on ensuring that AI systems work as intended, avoid unexpected failures, and can withstand attempts to manipulate them.",
+  q: "To complete the sentence: The __________ principle of responsible AI focuses on ensuring that AI systems work as intended, avoid unexpected failures, and can withstand attempts to manipulate them.",
   o: ["accountability", "fairness", "reliability and safety", "transparency"],
   a: 2,
   e: "Reliability and safety focuses on AI working as intended, avoiding unexpected failures, and resisting manipulation (both intended and unintended).",
@@ -1334,7 +1334,7 @@ questions[147] = {
 
 questions[148] = {
   id: 148,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Power Virtual Agents is a no-code chatbot building tool. (2) Power Virtual Agents can use pre-built NLP models. (3) Power Virtual Agents requires knowledge of Python to use.",
+  q: "For each statement, select Yes or No: (1) Power Virtual Agents is a no-code chatbot building tool. (2) Power Virtual Agents can use pre-built NLP models. (3) Power Virtual Agents requires knowledge of Python to use.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Power Virtual Agents yes is no-code. Yes, it uses built-in NLP capabilities. No, it requires no coding knowledge.",
@@ -1343,7 +1343,7 @@ questions[148] = {
 
 questions[149] = {
   id: 149,
-  q: "HOTSPOT - Computer vision capabilities can be deployed to enable which of the following?",
+  q: "Computer vision capabilities can be deployed to enable which of the following?",
   o: ["develop a text-based chatbot", "identify anomalous customer behavior", "integrate facial recognition into an application", "suggest automated responses to email"],
   a: 2,
   e: "Computer vision includes facial recognition. Chatbots are conversational AI/NLP. Anomalous behavior is anomaly detection. Email suggestions are NLP.",
@@ -1352,7 +1352,7 @@ questions[149] = {
 
 questions[150] = {
   id: 150,
-  q: "HOTSPOT - To complete the sentence: Identifying a __________ in a dataset is useful for finding unusual patterns that may indicate fraud or equipment failure.",
+  q: "To complete the sentence: Identifying a __________ in a dataset is useful for finding unusual patterns that may indicate fraud or equipment failure.",
   o: ["regression model", "anomaly", "cluster", "label"],
   a: 1,
   e: "Identifying an anomaly means finding unusual patterns that deviate significantly from expected behavior, which can indicate fraud or equipment failure.",
@@ -1370,7 +1370,7 @@ questions[151] = {
 
 questions[152] = {
   id: 152,
-  q: "HOTSPOT - For each statement about Azure AI services, select Yes or No: (1) Azure AI services require data scientists with deep ML expertise. (2) Azure AI services can be customized for specific domains. (3) Azure AI services follow responsible AI principles in their design.",
+  q: "For each statement about Azure AI services, select Yes or No: (1) Azure AI services require data scientists with deep ML expertise. (2) Azure AI services can be customized for specific domains. (3) Azure AI services follow responsible AI principles in their design.",
   o: ["A. No / Yes / Yes", "B. Yes / Yes / No", "C. No / No / Yes", "D. Yes / No / Yes"],
   a: 0,
   e: "No, they don't require deep ML expertise. Yes, they can be customized (Custom Vision, custom models). Yes, Microsoft builds them following responsible AI principles.",
@@ -1388,7 +1388,7 @@ questions[153] = {
 
 questions[154] = {
   id: 154,
-  q: "DRAG DROP - Match responsible AI principles to descriptions: (1) The system performs consistently under normal and unexpected conditions. (2) Personal data is collected only with user consent and stored securely.",
+  q: "Match responsible AI principles to descriptions: (1) The system performs consistently under normal and unexpected conditions. (2) Personal data is collected only with user consent and stored securely.",
   o: ["A. Reliability and safety / Privacy and security", "B. Transparency / Accountability", "C. Fairness / Inclusiveness", "D. Privacy and security / Reliability and safety"],
   a: 0,
   e: "Consistent operation under normal and unexpected conditions = Reliability and safety. Data consent and secure storage = Privacy and security.",
@@ -1406,7 +1406,7 @@ questions[155] = {
 
 questions[156] = {
   id: 156,
-  q: "HOTSPOT - To complete the sentence: __________ AI refers to technology that can engage in conversation with humans using natural language, either through text or voice.",
+  q: "To complete the sentence: __________ AI refers to technology that can engage in conversation with humans using natural language, either through text or voice.",
   o: ["Generative", "Conversational", "Autonomous", "Predictive"],
   a: 1,
   e: "Conversational AI enables technology to engage in human-like conversations using natural language through text (chatbots) or voice (voice assistants).",
@@ -1415,7 +1415,7 @@ questions[156] = {
 
 questions[157] = {
   id: 157,
-  q: "HOTSPOT - Ensuring an AI system does not provide a prediction when important input fields contain unusual or missing values is an example of which responsible AI principle?",
+  q: "Ensuring an AI system does not provide a prediction when important input fields contain unusual or missing values is an example of which responsible AI principle?",
   o: ["inclusiveness", "privacy and security", "reliability and safety", "transparency"],
   a: 2,
   e: "Reliability and safety ensures the AI system handles edge cases (unusual or missing input values) safely by not making predictions when data quality is insufficient.",
@@ -1424,7 +1424,7 @@ questions[157] = {
 
 questions[158] = {
   id: 158,
-  q: "DRAG DROP - Match Azure AI services to their descriptions: (1) Creates a knowledge base of question-answer pairs from existing content. (2) Provides speech-to-text and text-to-speech capabilities.",
+  q: "Match Azure AI services to their descriptions: (1) Creates a knowledge base of question-answer pairs from existing content. (2) Provides speech-to-text and text-to-speech capabilities.",
   o: ["A. Language Service (Custom QnA) / Speech service", "B. Speech service / Language service (Custom QnA)", "C. QnA Maker / Translator", "D. Translator / Speech service"],
   a: 0,
   e: "Knowledge base of Q&A pairs = Language service (Custom Question Answering). Speech-to-text/text-to-speech = Speech service.",
@@ -1451,7 +1451,7 @@ questions[160] = {
 
 questions[161] = {
   id: 161,
-  q: "HOTSPOT - To complete the sentence: When an AI system provides a confidence score with each prediction, explaining how certain the model is, this supports the Microsoft __________ principle.",
+  q: "To complete the sentence: When an AI system provides a confidence score with each prediction, explaining how certain the model is, this supports the Microsoft __________ principle.",
   o: ["accountability", "fairness", "transparency", "reliability and safety"],
   a: 2,
   e: "Providing confidence scores and explanations supports transparency by helping users understand how certain the model is and the basis for predictions.",
@@ -1460,7 +1460,7 @@ questions[161] = {
 
 questions[162] = {
   id: 162,
-  q: "HOTSPOT - Select the answer that correctly completes the sentence: Azure Machine Learning designer lets you create machine learning models by __________.",
+  q: "Select the answer that correctly completes the sentence: Azure Machine Learning designer lets you create machine learning models by __________.",
   o: ["adding and connecting modules on an interactive visual canvas", "automatically performing data preparation", "automatically selecting the best algorithm", "writing code in a Jupyter notebook"],
   a: 0,
   e: "Azure Machine Learning designer is a drag-and-drop interface that lets you add and connect modules on an interactive visual canvas to build ML pipelines.",
@@ -1469,7 +1469,7 @@ questions[162] = {
 
 questions[163] = {
   id: 163,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Azure ML designer is a no-code interface. (2) Azure ML AutoML automatically selects the best algorithm. (3) Azure ML Python SDK requires no programming knowledge.",
+  q: "For each statement, select Yes or No: (1) Azure ML designer is a no-code interface. (2) Azure ML AutoML automatically selects the best algorithm. (3) Azure ML Python SDK requires no programming knowledge.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / Yes", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Designer yes is no-code (drag-and-drop). AutoML yes automatically selects algorithms. No, the Python SDK does require programming knowledge.",
@@ -1487,7 +1487,7 @@ questions[164] = {
 
 questions[165] = {
   id: 165,
-  q: "DRAG DROP - Match the Azure ML tool to the task: (1) Create an Azure Machine Learning workspace in Azure. (2) Use a drag-and-drop visual interface to build ML models. (3) Use a wizard-driven interface to automatically select the best ML algorithm.",
+  q: "Match the Azure ML tool to the task: (1) Create an Azure Machine Learning workspace in Azure. (2) Use a drag-and-drop visual interface to build ML models. (3) Use a wizard-driven interface to automatically select the best ML algorithm.",
   o: ["A. Azure portal / ML designer / Automated ML", "B. ML designer / Azure portal / Automated ML", "C. Automated ML / ML designer / Azure portal", "D. Azure portal / Automated ML / ML designer"],
   a: 0,
   e: "Creating workspace = Azure portal. Drag-and-drop visual interface = ML designer. Wizard-driven automatic algorithm selection = Automated ML (AutoML).",
@@ -1496,7 +1496,7 @@ questions[165] = {
 
 questions[166] = {
   id: 166,
-  q: "HOTSPOT - To complete the sentence: __________ is the practice of using AI to search for and extract insights from large volumes of unstructured data such as documents and images.",
+  q: "To complete the sentence: __________ is the practice of using AI to search for and extract insights from large volumes of unstructured data such as documents and images.",
   o: ["Anomaly detection", "Knowledge mining", "Sentiment analysis", "Feature engineering"],
   a: 1,
   e: "Knowledge mining uses AI to search for and extract insights from large amounts of unstructured data like documents, images, and other content.",
@@ -1523,7 +1523,7 @@ questions[168] = {
 
 questions[169] = {
   id: 169,
-  q: "HOTSPOT - To complete the sentence: In Azure Machine Learning, a __________ is a reusable component that can be configured with specific parameters and connected to other components to form an ML pipeline.",
+  q: "To complete the sentence: In Azure Machine Learning, a __________ is a reusable component that can be configured with specific parameters and connected to other components to form an ML pipeline.",
   o: ["dataset", "module", "compute cluster", "experiment"],
   a: 1,
   e: "A module is a reusable component in Azure ML designer that performs a specific function (e.g., Split Data, Train Model) and can be connected to other modules.",
@@ -1541,7 +1541,7 @@ questions[170] = {
 
 questions[171] = {
   id: 171,
-  q: "HOTSPOT - For each statement about the Azure Face service, select Yes or No: (1) Face detection can identify the location of faces in an image. (2) Face verification confirms if two faces belong to the same person. (3) Face grouping requires a pre-existing database of known faces.",
+  q: "For each statement about the Azure Face service, select Yes or No: (1) Face detection can identify the location of faces in an image. (2) Face verification confirms if two faces belong to the same person. (3) Face grouping requires a pre-existing database of known faces.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Face detection yes locates faces. Face verification yes confirms if two faces are the same person. Face grouping no doesn't require a pre-existing database (it groups similar faces automatically).",
@@ -1559,7 +1559,7 @@ questions[172] = {
 
 questions[173] = {
   id: 173,
-  q: "HOTSPOT - To complete the sentence: An AI system that can describe the reasoning behind its credit scoring decisions to regulators is demonstrating the __________ principle of responsible AI.",
+  q: "To complete the sentence: An AI system that can describe the reasoning behind its credit scoring decisions to regulators is demonstrating the __________ principle of responsible AI.",
   o: ["accountability", "fairness", "transparency", "inclusiveness"],
   a: 2,
   e: "Transparency means being able to explain and describe how AI decisions are made. Explaining credit scoring decisions to regulators is an example of transparency.",
@@ -1577,7 +1577,7 @@ questions[174] = {
 
 questions[175] = {
   id: 175,
-  q: "HOTSPOT - For each statement about conversational AI, select Yes or No: (1) Conversational AI can understand user intent from natural language. (2) Conversational AI always requires a human operator. (3) Power Virtual Agents is an example of a conversational AI tool.",
+  q: "For each statement about conversational AI, select Yes or No: (1) Conversational AI can understand user intent from natural language. (2) Conversational AI always requires a human operator. (3) Power Virtual Agents is an example of a conversational AI tool.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Conversational AI yes understands intent from natural language. No, it can operate automatically. Yes, Power Virtual Agents is a conversational AI platform.",
@@ -1604,7 +1604,7 @@ questions[177] = {
 
 questions[178] = {
   id: 178,
-  q: "HOTSPOT - A banking system that predicts whether a loan will be repaid (yes or no) is an example of which type of machine learning?",
+  q: "A banking system that predicts whether a loan will be repaid (yes or no) is an example of which type of machine learning?",
   o: ["clustering", "regression", "classification"],
   a: 2,
   e: "Classification predicts categories. Predicting whether a loan will be repaid is binary classification (yes/no outcome).",
@@ -1613,7 +1613,7 @@ questions[178] = {
 
 questions[179] = {
   id: 179,
-  q: "HOTSPOT - To complete the sentence: __________ learning algorithms learn from data that does not have predefined labels or expected outputs.",
+  q: "To complete the sentence: __________ learning algorithms learn from data that does not have predefined labels or expected outputs.",
   o: ["Supervised", "Unsupervised", "Reinforcement", "Transfer"],
   a: 1,
   e: "Unsupervised learning works with unlabeled data to discover patterns, groupings, or structures without predefined expected outputs.",
@@ -1631,7 +1631,7 @@ questions[180] = {
 
 questions[181] = {
   id: 181,
-  q: "HOTSPOT - For each statement about object detection, select Yes or No: (1) Object detection can identify the location of a damaged product on an assembly line. (2) Object detection can identify multiple instances of the same object in one image. (3) Object detection can only identify one type of object per image.",
+  q: "For each statement about object detection, select Yes or No: (1) Object detection can identify the location of a damaged product on an assembly line. (2) Object detection can identify multiple instances of the same object in one image. (3) Object detection can only identify one type of object per image.",
   o: ["A. Yes / Yes / No", "B. Yes / No / No", "C. Yes / Yes / Yes", "D. No / Yes / Yes"],
   a: 0,
   e: "Object detection yes can locate damaged products. Yes, it can find multiple instances. No, it can identify multiple types of objects in one image.",
@@ -1649,7 +1649,7 @@ questions[182] = {
 
 questions[183] = {
   id: 183,
-  q: "HOTSPOT - Select the answer that correctly completes the sentence: Computer vision can be used to identify __________ in an image.",
+  q: "Select the answer that correctly completes the sentence: Computer vision can be used to identify __________ in an image.",
   o: ["objects and their locations", "sentiment", "key phrases", "user intent"],
   a: 0,
   e: "Computer vision identifies objects and their locations (object detection), image categories (classification), and text (OCR) in images.",
@@ -1658,7 +1658,7 @@ questions[183] = {
 
 questions[184] = {
   id: 184,
-  q: "HOTSPOT - Identifying whether a kiosk user is annoyed by monitoring video feed and analyzing their facial expression is an example of:",
+  q: "Identifying whether a kiosk user is annoyed by monitoring video feed and analyzing their facial expression is an example of:",
   o: ["facial analysis", "object detection", "OCR", "image classification"],
   a: 0,
   e: "Facial analysis detects emotions like annoyance, happiness, or anger from analyzing facial expressions in video or images.",
@@ -1676,7 +1676,7 @@ questions[185] = {
 
 questions[186] = {
   id: 186,
-  q: "HOTSPOT - An AI solution that helps photographers take better portraits by providing feedback on exposure, noise level, and occlusion of facial features is an example of facial:",
+  q: "An AI solution that helps photographers take better portraits by providing feedback on exposure, noise level, and occlusion of facial features is an example of facial:",
   o: ["analysis", "detection", "recognition"],
   a: 0,
   e: "Facial analysis evaluates image quality attributes related to faces: exposure, noise, blur, occlusion (something blocking facial features).",
@@ -1685,7 +1685,7 @@ questions[186] = {
 
 questions[187] = {
   id: 187,
-  q: "HOTSPOT - To complete the sentence: __________ AI can generate new content such as text, images, or code that did not previously exist.",
+  q: "To complete the sentence: __________ AI can generate new content such as text, images, or code that did not previously exist.",
   o: ["Narrow", "Generative", "Predictive", "Analytical"],
   a: 1,
   e: "Generative AI creates new, original content including text (like ChatGPT), images (like DALL-E), code, and other media.",
@@ -1703,7 +1703,7 @@ questions[188] = {
 
 questions[189] = {
   id: 189,
-  q: "HOTSPOT - __________ can be used to identify multiple types of items in a single image and return their locations.",
+  q: "__________ can be used to identify multiple types of items in a single image and return their locations.",
   o: ["Image classification", "Image description", "Object detection", "OCR"],
   a: 2,
   e: "Object detection identifies and locates multiple different types of objects in a single image, returning bounding boxes for each.",
@@ -1721,7 +1721,7 @@ questions[190] = {
 
 questions[191] = {
   id: 191,
-  q: "HOTSPOT - For each statement about Azure Form Recognizer, select Yes or No: (1) Form Recognizer can extract data from receipts. (2) Form Recognizer can only process PDF documents. (3) Form Recognizer can extract tables from documents.",
+  q: "For each statement about Azure Form Recognizer, select Yes or No: (1) Form Recognizer can extract data from receipts. (2) Form Recognizer can only process PDF documents. (3) Form Recognizer can extract tables from documents.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / Yes", "C. No / No / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Form Recognizer yes extracts data from receipts. No, it processes many formats including JPG, PNG, PDF. Yes, it can extract table data.",
@@ -1730,7 +1730,7 @@ questions[191] = {
 
 questions[192] = {
   id: 192,
-  q: "HOTSPOT - An AI solution that helps photographers take better portraits by providing feedback on image quality including exposure, noise, and face occlusion is using facial:",
+  q: "An AI solution that helps photographers take better portraits by providing feedback on image quality including exposure, noise, and face occlusion is using facial:",
   o: ["analysis", "detection", "recognition"],
   a: 0,
   e: "Facial analysis evaluates photo quality attributes related to facial features including exposure, noise, blur, and occlusion.",
@@ -1748,7 +1748,7 @@ questions[193] = {
 
 questions[194] = {
   id: 194,
-  q: "HOTSPOT - To complete the sentence: In Azure Machine Learning, the process of creating a new column by combining or transforming existing columns in a dataset is called __________.",
+  q: "To complete the sentence: In Azure Machine Learning, the process of creating a new column by combining or transforming existing columns in a dataset is called __________.",
   o: ["feature selection", "feature engineering", "model training", "data labeling"],
   a: 1,
   e: "Feature engineering creates new features (columns) by combining or transforming existing data. For example, creating a 'total_price' column from 'quantity × unit_price'.",
@@ -1766,7 +1766,7 @@ questions[195] = {
 
 questions[196] = {
   id: 196,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Clustering can discover hidden patterns in data. (2) Clustering requires labeled training data. (3) K-means is a common clustering algorithm.",
+  q: "For each statement, select Yes or No: (1) Clustering can discover hidden patterns in data. (2) Clustering requires labeled training data. (3) K-means is a common clustering algorithm.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / No / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Clustering yes discovers hidden patterns. No, clustering is unsupervised and doesn't require labeled data. Yes, K-means is a common clustering algorithm.",
@@ -1784,7 +1784,7 @@ questions[197] = {
 
 questions[198] = {
   id: 198,
-  q: "HOTSPOT - To complete the sentence: __________ is an AI workload that involves building systems that can understand and respond to natural human language in text or speech form.",
+  q: "To complete the sentence: __________ is an AI workload that involves building systems that can understand and respond to natural human language in text or speech form.",
   o: ["Computer vision", "Natural language processing (NLP)", "Anomaly detection", "Machine learning"],
   a: 1,
   e: "Natural language processing (NLP) is the AI workload for understanding and processing human language in text or speech form.",
@@ -1802,7 +1802,7 @@ questions[199] = {
 
 questions[200] = {
   id: 200,
-  q: "HOTSPOT - For each statement about the Azure AI platform, select Yes or No: (1) Azure AI services are cloud-based. (2) Azure AI can only be accessed from Azure-hosted applications. (3) Azure AI services require purchasing dedicated hardware.",
+  q: "For each statement about the Azure AI platform, select Yes or No: (1) Azure AI services are cloud-based. (2) Azure AI can only be accessed from Azure-hosted applications. (3) Azure AI services require purchasing dedicated hardware.",
   o: ["A. Yes / No / No", "B. Yes / Yes / No", "C. No / No / Yes", "D. Yes / No / Yes"],
   a: 0,
   e: "Yes, Azure AI services are cloud-based. No, they can be accessed from any application via APIs. No, no dedicated hardware purchase is needed (cloud-managed).",
@@ -1811,7 +1811,7 @@ questions[200] = {
 
 questions[201] = {
   id: 201,
-  q: "HOTSPOT - For each scenario, select Yes if it involves NLP, otherwise No: (1) A webchat bot that interacts with website visitors. (2) Generating captions for photographs. (3) A smart device that responds to questions about the weather.",
+  q: "For each scenario, select Yes if it involves NLP, otherwise No: (1) A webchat bot that interacts with website visitors. (2) Generating captions for photographs. (3) A smart device that responds to questions about the weather.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / Yes", "C. No / Yes / Yes", "D. Yes / Yes / No"],
   a: 0,
   e: "Webchat bot = Yes (NLP). Generating captions for photos = No (computer vision). Smart device answering questions = Yes (NLP/conversational AI).",
@@ -1829,7 +1829,7 @@ questions[202] = {
 
 questions[203] = {
   id: 203,
-  q: "HOTSPOT - For each statement about AI workload types, select Yes or No: (1) Computer vision can be used to analyze satellite images for crop health. (2) NLP can be used to automatically route customer emails to the correct department. (3) Anomaly detection can be used to predict tomorrow's stock prices.",
+  q: "For each statement about AI workload types, select Yes or No: (1) Computer vision can be used to analyze satellite images for crop health. (2) NLP can be used to automatically route customer emails to the correct department. (3) Anomaly detection can be used to predict tomorrow's stock prices.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Satellite imagery analysis = Yes (computer vision). Email routing = Yes (NLP - text classification). Predicting prices = No (regression, not anomaly detection).",
@@ -1838,7 +1838,7 @@ questions[203] = {
 
 questions[204] = {
   id: 204,
-  q: "HOTSPOT - For each scenario, select Yes if it involves NLP or No: (1) A bot responding to internal employee questions. (2) A mobile app that displays images matching a search term. (3) A web form for password reset.",
+  q: "For each scenario, select Yes if it involves NLP or No: (1) A bot responding to internal employee questions. (2) A mobile app that displays images matching a search term. (3) A web form for password reset.",
   o: ["A. Yes / No / No", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / Yes"],
   a: 0,
   e: "Bot responding to questions = Yes (NLP/conversational AI). Image search = No (computer vision). Web form for password reset = No (not NLP).",
@@ -1856,7 +1856,7 @@ questions[205] = {
 
 questions[206] = {
   id: 206,
-  q: "HOTSPOT - To complete the sentence: __________ is the ability of an AI system to generate images, text, code, audio, and other content that is new and original.",
+  q: "To complete the sentence: __________ is the ability of an AI system to generate images, text, code, audio, and other content that is new and original.",
   o: ["Anomaly detection", "Generative AI", "Computer vision", "Transfer learning"],
   a: 1,
   e: "Generative AI creates new, original content (images, text, code, audio) that did not previously exist, unlike discriminative AI which classifies existing content.",
@@ -1874,7 +1874,7 @@ questions[207] = {
 
 questions[208] = {
   id: 208,
-  q: "HOTSPOT - For each statement, select Yes or No: (1) Transfer learning allows you to use a model trained on one task as a starting point for a different but related task. (2) Transfer learning requires starting from scratch with a new neural network. (3) Transfer learning is commonly used in computer vision tasks.",
+  q: "For each statement, select Yes or No: (1) Transfer learning allows you to use a model trained on one task as a starting point for a different but related task. (2) Transfer learning requires starting from scratch with a new neural network. (3) Transfer learning is commonly used in computer vision tasks.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Transfer learning yes reuses trained models. No, it doesn't start from scratch (that's the benefit). Yes, transfer learning is widely used in computer vision.",
@@ -1892,7 +1892,7 @@ questions[209] = {
 
 questions[210] = {
   id: 210,
-  q: "HOTSPOT - Returning a bounding box that indicates the location of a vehicle in an image is an example of which computer vision task?",
+  q: "Returning a bounding box that indicates the location of a vehicle in an image is an example of which computer vision task?",
   o: ["image classification", "object detection", "OCR", "facial detection"],
   a: 1,
   e: "Object detection identifies objects and returns bounding box coordinates showing where each object is located in the image.",
@@ -1919,7 +1919,7 @@ questions[212] = {
 
 questions[213] = {
   id: 213,
-  q: "HOTSPOT - To complete the sentence: __________ is a type of AI that uses large language models (LLMs) to generate, transform, and understand text, code, images, and other content.",
+  q: "To complete the sentence: __________ is a type of AI that uses large language models (LLMs) to generate, transform, and understand text, code, images, and other content.",
   o: ["Narrow AI", "Generative AI", "Classical ML", "Symbolic AI"],
   a: 1,
   e: "Generative AI uses large language models to generate and understand diverse content types including text, code, and images.",
@@ -1937,7 +1937,7 @@ questions[214] = {
 
 questions[215] = {
   id: 215,
-  q: "HOTSPOT - For each statement about conversational AI, select Yes or No: (1) Azure Bot Service can handle multi-turn conversations. (2) Language service QnA is designed for single-turn FAQ answering. (3) LUIS is used to detect the language of user input.",
+  q: "For each statement about conversational AI, select Yes or No: (1) Azure Bot Service can handle multi-turn conversations. (2) Language service QnA is designed for single-turn FAQ answering. (3) LUIS is used to detect the language of user input.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "Bot Service yes handles multi-turn conversations. QnA yes is designed for FAQ single-turn Q&A. No, LUIS detects user intent (not language - language detection is different).",
@@ -1955,7 +1955,7 @@ questions[216] = {
 
 questions[217] = {
   id: 217,
-  q: "HOTSPOT - For each responsible AI scenario, identify the principle violated: (1) An AI diagnostic tool only works accurately for patients of certain ethnicities due to biased training data. (2) An AI system doesn't log its decisions, making it impossible to audit.",
+  q: "For each responsible AI scenario, identify the principle violated: (1) An AI diagnostic tool only works accurately for patients of certain ethnicities due to biased training data. (2) An AI system doesn't log its decisions, making it impossible to audit.",
   o: ["A. Fairness / Transparency", "B. Transparency / Fairness", "C. Inclusiveness / Accountability", "D. Fairness / Accountability"],
   a: 0,
   e: "Biased accuracy for certain ethnicities = Fairness violated. No decision logging = Transparency violated (can't explain decisions).",
@@ -1973,7 +1973,7 @@ questions[218] = {
 
 questions[219] = {
   id: 219,
-  q: "HOTSPOT - To complete the sentence: __________ is a natural language processing task that identifies and extracts named entities such as people, places, organizations, and dates from text.",
+  q: "To complete the sentence: __________ is a natural language processing task that identifies and extracts named entities such as people, places, organizations, and dates from text.",
   o: ["Sentiment analysis", "Named Entity Recognition (NER)", "Key phrase extraction", "Language detection"],
   a: 1,
   e: "Named Entity Recognition (NER) identifies and extracts named entities such as people, places, organizations, and dates from text.",
@@ -2000,7 +2000,7 @@ questions[221] = {
 
 questions[222] = {
   id: 222,
-  q: "HOTSPOT - You have an application that identifies birds in images. For two tasks: (1) Find the location of birds in an image. (2) Identify the species of the bird. Which computer vision tasks do these correspond to?",
+  q: "You have an application that identifies birds in images. For two tasks: (1) Find the location of birds in an image. (2) Identify the species of the bird. Which computer vision tasks do these correspond to?",
   o: ["A. Object detection / Image classification", "B. Image classification / Object detection", "C. Semantic segmentation / OCR", "D. Object detection / Semantic segmentation"],
   a: 0,
   e: "Finding location of birds = Object detection (returns bounding boxes). Identifying the species = Image classification (assigns category label).",
@@ -2054,7 +2054,7 @@ questions[227] = {
 
 questions[228] = {
   id: 228,
-  q: "HOTSPOT - __________ can be used to build no-code chatbot applications that use built-in AI models for natural language understanding.",
+  q: "__________ can be used to build no-code chatbot applications that use built-in AI models for natural language understanding.",
   o: ["Power Virtual Agents", "Azure Bot Service", "Language Studio", "Custom Vision"],
   a: 0,
   e: "Power Virtual Agents is the no-code platform for building chatbots with built-in NLP capabilities, requiring no coding or data science expertise.",
@@ -2063,7 +2063,7 @@ questions[228] = {
 
 questions[229] = {
   id: 229,
-  q: "HOTSPOT - For each statement about machine learning inference, select Yes or No: (1) Inference is the process of using a trained model to make predictions on new data. (2) Inference requires access to the training dataset. (3) Real-time inference provides predictions in milliseconds.",
+  q: "For each statement about machine learning inference, select Yes or No: (1) Inference is the process of using a trained model to make predictions on new data. (2) Inference requires access to the training dataset. (3) Real-time inference provides predictions in milliseconds.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Inference yes uses trained model to make predictions. No, inference only needs the trained model, not the original training data. Yes, real-time inference provides near-instantaneous predictions.",
@@ -2090,7 +2090,7 @@ questions[231] = {
 
 questions[232] = {
   id: 232,
-  q: "HOTSPOT - For each scenario, select Yes if it's an example of conversational AI, otherwise No: (1) Interactive webchat implemented with Azure Bot Service. (2) Generating captions for video content. (3) A smart device that responds to appointment scheduling questions.",
+  q: "For each scenario, select Yes if it's an example of conversational AI, otherwise No: (1) Interactive webchat implemented with Azure Bot Service. (2) Generating captions for video content. (3) A smart device that responds to appointment scheduling questions.",
   o: ["A. Yes / No / Yes", "B. Yes / Yes / No", "C. No / Yes / Yes", "D. Yes / No / No"],
   a: 0,
   e: "Webchat with Bot Service = Yes (conversational AI). Generating video captions = No (computer vision). Smart device for appointments = Yes (conversational AI).",
@@ -2126,7 +2126,7 @@ questions[235] = {
 
 questions[236] = {
   id: 236,
-  q: "DRAG DROP - Match machine learning model types to their descriptions: (1) Predicts a numeric value (e.g., predicts house price). (2) Predicts which category an item belongs to (e.g., spam/not spam). (3) Groups similar items together without predefined categories.",
+  q: "Match machine learning model types to their descriptions: (1) Predicts a numeric value (e.g., predicts house price). (2) Predicts which category an item belongs to (e.g., spam/not spam). (3) Groups similar items together without predefined categories.",
   o: ["A. Regression / Classification / Clustering", "B. Classification / Regression / Clustering", "C. Clustering / Classification / Regression", "D. Regression / Clustering / Classification"],
   a: 0,
   e: "Predicting numeric value = Regression. Predicting category = Classification. Grouping without predefined categories = Clustering.",
@@ -2144,7 +2144,7 @@ questions[237] = {
 
 questions[238] = {
   id: 238,
-  q: "HOTSPOT - For each statement about machine learning model evaluation, select Yes or No: (1) A model with 98% accuracy on training data but 60% on test data is likely overfitting. (2) Cross-validation is used to get a more reliable estimate of model performance. (3) Model evaluation should be done using data that was used in training.",
+  q: "For each statement about machine learning model evaluation, select Yes or No: (1) A model with 98% accuracy on training data but 60% on test data is likely overfitting. (2) Cross-validation is used to get a more reliable estimate of model performance. (3) Model evaluation should be done using data that was used in training.",
   o: ["A. Yes / Yes / No", "B. Yes / No / Yes", "C. No / Yes / No", "D. Yes / Yes / Yes"],
   a: 0,
   e: "High training accuracy but low test accuracy = Yes (overfitting). Cross-validation = Yes (more reliable). Test data same as training = No (test data must be separate).",
@@ -2153,7 +2153,7 @@ questions[238] = {
 
 questions[239] = {
   id: 239,
-  q: "HOTSPOT - To complete the sentence: __________ is when an AI system generates plausible-sounding but incorrect or fabricated information, which is a key challenge with large language models.",
+  q: "To complete the sentence: __________ is when an AI system generates plausible-sounding but incorrect or fabricated information, which is a key challenge with large language models.",
   o: ["Overfitting", "Hallucination", "Bias", "Underfitting"],
   a: 1,
   e: "Hallucination in AI refers to when a model generates confidently stated but factually incorrect or fabricated information, a known challenge with large language models.",
@@ -2171,7 +2171,7 @@ questions[240] = {
 
 questions[241] = {
   id: 241,
-  q: "HOTSPOT - For each statement about the Microsoft six principles of responsible AI, select Yes or No: (1) Inclusiveness means AI should benefit everyone including people with disabilities. (2) Accountability means AI systems should operate without human oversight. (3) Privacy and security requires collecting as much data as possible.",
+  q: "For each statement about the Microsoft six principles of responsible AI, select Yes or No: (1) Inclusiveness means AI should benefit everyone including people with disabilities. (2) Accountability means AI systems should operate without human oversight. (3) Privacy and security requires collecting as much data as possible.",
   o: ["A. Yes / No / No", "B. Yes / Yes / No", "C. No / Yes / No", "D. Yes / No / Yes"],
   a: 0,
   e: "Inclusiveness yes means benefiting everyone. No, accountability requires human oversight. No, privacy means minimizing data collection, not maximizing it.",
@@ -2180,7 +2180,7 @@ questions[241] = {
 
 questions[242] = {
   id: 242,
-  q: "HOTSPOT - To complete the sentence: When an AI model is trained on data that underrepresents certain demographic groups, the resulting model may perform poorly for those groups, which is a concern for the __________ principle of responsible AI.",
+  q: "To complete the sentence: When an AI model is trained on data that underrepresents certain demographic groups, the resulting model may perform poorly for those groups, which is a concern for the __________ principle of responsible AI.",
   o: ["accountability", "transparency", "fairness", "reliability and safety"],
   a: 2,
   e: "Fairness ensures AI doesn't discriminate or perform worse for underrepresented groups. Biased training data causing poor performance for certain groups violates fairness.",
