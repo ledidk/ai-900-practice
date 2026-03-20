@@ -1,0 +1,5 @@
+[build]
+  command = "pnpm install && pnpm --filter ai900-exam run build"
+  publish = "artifacts/ai900-exam/dist/public"
+  base = "."
+  functions = "netlify/functions"
