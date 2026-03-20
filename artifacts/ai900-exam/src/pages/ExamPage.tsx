@@ -491,6 +491,9 @@ export default function ExamPage() {
         <div style={{ textAlign: "center", color: "#99b8d8", fontSize: "0.78rem", marginTop: "8px" }}>
           ⌨️ 1–4 select answer · Enter submit · ← → navigate · B bookmark · G grid map
         </div>
+        <div style={{ textAlign: "center", color: "#b0c8e0", fontSize: "0.78rem", marginTop: "6px" }}>
+          Creator: <a href="https://linkedin.com/in/diontakir/" target="_blank" rel="noopener noreferrer" style={{ color: "#1c4a76", textDecoration: "none", fontWeight: 600 }}>linkedin.com/in/diontakir/</a>
+        </div>
       </div>
     </div>
   );
